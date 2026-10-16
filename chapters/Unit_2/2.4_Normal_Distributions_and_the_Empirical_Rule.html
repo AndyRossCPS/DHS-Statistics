@@ -276,6 +276,35 @@ window.Quarto = {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 3: Two-Way Tables</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.1_Two-Way_Tables_and_Relative_Frequency.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.1 - Two-Way Tables and Relative Frequency</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.2_Marginal_and_Conditional_Distributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.2 - Marginal and Conditional Distributions</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../glossary.html" class="sidebar-item-text sidebar-link">
@@ -329,7 +358,7 @@ window.Quarto = {
 <p><img src="../../images/Unit_2/2.4_heights.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
 </figure>
 </div>
-<p>Data with this shape has a <a href="../../glossary.html#glossary-normal-distribution" class="glossary-link" data-slug="normal-distribution" data-original-href="#glossary-normal-distribution" data-term="normal distribution">normal distribution</a>. In this lesson, you use one simple rule to find percents in any normal distribution.</p>
+<p>Data with this shape has a <a href="../../glossary.html#glossary-normal-distribution" class="glossary-link" data-original-href="#glossary-normal-distribution" data-slug="normal-distribution" data-term="normal distribution">normal distribution</a>. In this lesson, you use one simple rule to find percents in any normal distribution.</p>
 <div class="objectives">
 <ul class="task-list">
 <li><label><input type="checkbox">I describe a normal distribution.</label></li>
@@ -339,7 +368,7 @@ window.Quarto = {
 </ul>
 </div>
 <div class="vocab">
-<p><a href="../../glossary.html#glossary-normal-distribution" class="glossary-link" data-slug="normal-distribution" data-original-href="#glossary-normal-distribution" data-term="normal distribution">normal distribution</a>, <a href="../../glossary.html#glossary-empirical-rule" class="glossary-link" data-slug="empirical-rule" data-original-href="#glossary-empirical-rule" data-term="empirical rule">empirical rule</a>, <a href="../../glossary.html#glossary-standard-deviation" class="glossary-link" data-slug="standard-deviation" data-original-href="#glossary-standard-deviation" data-term="standard deviation">standard deviation</a>, <a href="../../glossary.html#glossary-percentile" class="glossary-link" data-slug="percentile" data-original-href="#glossary-percentile" data-term="percentile">percentile</a>, <a href="../../glossary.html#glossary-symmetric" class="glossary-link" data-slug="symmetric" data-original-href="#glossary-symmetric" data-term="symmetric">symmetric</a></p>
+<p><a href="../../glossary.html#glossary-normal-distribution" class="glossary-link" data-original-href="#glossary-normal-distribution" data-slug="normal-distribution" data-term="normal distribution">normal distribution</a>, <a href="../../glossary.html#glossary-empirical-rule" class="glossary-link" data-original-href="#glossary-empirical-rule" data-slug="empirical-rule" data-term="empirical rule">empirical rule</a>, <a href="../../glossary.html#glossary-standard-deviation" class="glossary-link" data-original-href="#glossary-standard-deviation" data-slug="standard-deviation" data-term="standard deviation">standard deviation</a>, <a href="../../glossary.html#glossary-percentile" class="glossary-link" data-original-href="#glossary-percentile" data-slug="percentile" data-term="percentile">percentile</a>, <a href="../../glossary.html#glossary-symmetric" class="glossary-link" data-original-href="#glossary-symmetric" data-slug="symmetric" data-term="symmetric">symmetric</a></p>
 </div>
 <div class="guided-notes-link">
 <p><a href="../../handouts/Unit_2/2.4_Normal_Distributions_and_the_Empirical_Rule.pdf" target="_blank">Printable mini lesson</a> - notes and practice problems to print and write on.</p>
@@ -355,7 +384,7 @@ window.Quarto = {
 <ul>
 <li>is bell-shaped and symmetric</li>
 <li>has the mean and the median in the center (they are equal)</li>
-<li>is described by two numbers: the <strong>mean</strong> (center) and the <strong>SD</strong> (spread)</li>
+<li>is described by two numbers: the <strong>mean</strong> <span class="math inline">\(\mu\)</span> (center) and the <strong>SD</strong> <span class="math inline">\(\sigma\)</span> (spread)</li>
 </ul>
 </div>
 <p>A larger SD makes the curve wider and flatter. A different mean moves the curve left or right.</p>
@@ -370,9 +399,9 @@ window.Quarto = {
 </div>
 <div class="remember" title="The 68-95-99.7 Rule">
 <ul>
-<li>About <strong>68%</strong> of the data is within <strong>1 SD</strong> of the mean.</li>
-<li>About <strong>95%</strong> of the data is within <strong>2 SDs</strong> of the mean.</li>
-<li>About <strong>99.7%</strong> of the data is within <strong>3 SDs</strong> of the mean.</li>
+<li>About <strong>68%</strong> of the data is within <strong>1 SD</strong> of the mean, from <span class="math inline">\(\mu - \sigma\)</span> to <span class="math inline">\(\mu + \sigma\)</span>.</li>
+<li>About <strong>95%</strong> of the data is within <strong>2 SDs</strong> of the mean, from <span class="math inline">\(\mu - 2\sigma\)</span> to <span class="math inline">\(\mu + 2\sigma\)</span>.</li>
+<li>About <strong>99.7%</strong> of the data is within <strong>3 SDs</strong> of the mean, from <span class="math inline">\(\mu - 3\sigma\)</span> to <span class="math inline">\(\mu + 3\sigma\)</span>.</li>
 </ul>
 </div>
 <p><strong>Example:</strong> Heights of adult women have a mean of about 64 inches and an SD of about 3 inches.</p>

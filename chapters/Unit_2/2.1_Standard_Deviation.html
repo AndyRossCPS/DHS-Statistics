@@ -276,6 +276,35 @@ window.Quarto = {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 3: Two-Way Tables</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.1_Two-Way_Tables_and_Relative_Frequency.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.1 - Two-Way Tables and Relative Frequency</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.2_Marginal_and_Conditional_Distributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.2 - Marginal and Conditional Distributions</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../glossary.html" class="sidebar-item-text sidebar-link">
@@ -331,7 +360,7 @@ window.Quarto = {
 </figure>
 </div>
 <p>Player A scores close to 10 every game. Player B might score 2 or 18. The mean is the same, but the players are very different.</p>
-<p>In this lesson, you learn the <a href="../../glossary.html#glossary-standard-deviation" class="glossary-link" data-slug="standard-deviation" data-original-href="#glossary-standard-deviation" data-term="standard deviation">standard deviation</a>, a number that measures this spread.</p>
+<p>In this lesson, you learn the <a href="../../glossary.html#glossary-standard-deviation" class="glossary-link" data-original-href="#glossary-standard-deviation" data-slug="standard-deviation" data-term="standard deviation">standard deviation</a>, a number that measures this spread.</p>
 <div class="objectives">
 <ul class="task-list">
 <li><label><input type="checkbox">I explain what the standard deviation tells about data.</label></li>
@@ -340,7 +369,7 @@ window.Quarto = {
 </ul>
 </div>
 <div class="vocab">
-<p><a href="../../glossary.html#glossary-standard-deviation" class="glossary-link" data-slug="standard-deviation" data-original-href="#glossary-standard-deviation" data-term="standard deviation">standard deviation</a>, <a href="../../glossary.html#glossary-variance" class="glossary-link" data-slug="variance" data-original-href="#glossary-variance" data-term="variance">variance</a>, <a href="../../glossary.html#glossary-mean" class="glossary-link" data-slug="mean" data-original-href="#glossary-mean" data-term="mean">mean</a>, <a href="../../glossary.html#glossary-sample" class="glossary-link" data-slug="sample" data-original-href="#glossary-sample" data-term="sample">sample</a></p>
+<p><a href="../../glossary.html#glossary-standard-deviation" class="glossary-link" data-original-href="#glossary-standard-deviation" data-slug="standard-deviation" data-term="standard deviation">standard deviation</a>, <a href="../../glossary.html#glossary-variance" class="glossary-link" data-original-href="#glossary-variance" data-slug="variance" data-term="variance">variance</a>, <a href="../../glossary.html#glossary-mean" class="glossary-link" data-original-href="#glossary-mean" data-slug="mean" data-term="mean">mean</a>, <a href="../../glossary.html#glossary-sample" class="glossary-link" data-original-href="#glossary-sample" data-slug="sample" data-term="sample">sample</a></p>
 </div>
 <div class="guided-notes-link">
 <p><a href="../../handouts/Unit_2/2.1_Standard_Deviation.pdf" target="_blank">Printable mini lesson</a> - notes and practice problems to print and write on.</p>
@@ -352,7 +381,7 @@ window.Quarto = {
 <h2 class="unnumbered anchored" data-anchor-id="learn">👥 Learn Together</h2>
 <section id="what-the-sd-tells-you" class="level3">
 <h3 class="anchored" data-anchor-id="what-the-sd-tells-you">2.1.1 - What the SD Tells You</h3>
-<p>The <a href="../../glossary.html#glossary-standard-deviation" class="glossary-link" data-slug="standard-deviation" data-original-href="#glossary-standard-deviation" data-term="standard deviation">standard deviation</a> (SD) is about <strong>how far the values usually are from the mean</strong>.</p>
+<p>The <a href="../../glossary.html#glossary-standard-deviation" class="glossary-link" data-original-href="#glossary-standard-deviation" data-slug="standard-deviation" data-term="standard deviation">standard deviation</a> (SD) is about <strong>how far the values usually are from the mean</strong>.</p>
 <ul>
 <li><strong>Small SD:</strong> the values are close to the mean.</li>
 <li><strong>Large SD:</strong> the values are spread out.</li>
@@ -385,10 +414,10 @@ window.Quarto = {
 </tr>
 <tr class="even">
 <td>4. Add the squares.</td>
-<td><span class="math inline">\(9 + 9 + 0 + 9 + 9 = 36\)</span></td>
+<td><span class="math inline">\(\Sigma(x - \bar{x})^2 = 9 + 9 + 0 + 9 + 9 = 36\)</span></td>
 </tr>
 <tr class="odd">
-<td>5. Divide by <span class="math inline">\(n - 1\)</span>. This is the <a href="../../glossary.html#glossary-variance" class="glossary-link" data-slug="variance" data-original-href="#glossary-variance" data-term="variance">variance</a>.</td>
+<td>5. Divide by <span class="math inline">\(n - 1\)</span>. This is the <a href="../../glossary.html#glossary-variance" class="glossary-link" data-original-href="#glossary-variance" data-slug="variance" data-term="variance">variance</a>.</td>
 <td><span class="math inline">\(36 \div 4 = 9\)</span></td>
 </tr>
 <tr class="even">
@@ -433,7 +462,7 @@ window.Quarto = {
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><strong>Sum</strong></td>
+<td style="text-align: center;"><span class="math inline">\(\Sigma(x - \bar{x})^2\)</span></td>
 <td style="text-align: center;"><strong>36</strong></td>
 </tr>
 </tbody>
@@ -441,17 +470,21 @@ window.Quarto = {
 <p>The standard deviation is <span class="math inline">\(s = 3\)</span>.</p>
 <div class="remember" title="The Formula">
 <p><span class="math display">\[
-s = \sqrt{\frac{\text{sum of } (x - \bar{x})^2}{n - 1}}
+s = \sqrt{\frac{\Sigma(x - \bar{x})^2}{n - 1}}
 \]</span></p>
-<p><span class="math inline">\(n\)</span> is how many values there are.</p>
+<ul>
+<li><span class="math inline">\(\Sigma\)</span> (capital <strong>sigma</strong>) means <strong>add up</strong>.</li>
+<li><span class="math inline">\(\Sigma(x - \bar{x})^2\)</span> means: find <span class="math inline">\((x - \bar{x})^2\)</span> for every value, then add them all.</li>
+<li><span class="math inline">\(n\)</span> is how many values there are.</li>
+</ul>
 </div>
 <div class="think" title="Why divide by n − 1 and not n?">
-<p>Our data is usually a <a href="../../glossary.html#glossary-sample" class="glossary-link" data-slug="sample" data-original-href="#glossary-sample" data-term="sample">sample</a>, a small part of a bigger group.</p>
+<p>Our data is usually a <a href="../../glossary.html#glossary-sample" class="glossary-link" data-original-href="#glossary-sample" data-slug="sample" data-term="sample">sample</a>, a small part of a bigger group.</p>
 <p>A sample is usually a little less spread out than the whole group. Dividing by <span class="math inline">\(n - 1\)</span> makes <span class="math inline">\(s\)</span> a little bigger. This fixes the problem.</p>
 </div>
 <div class="you-try" title="Find the SD of 2, 4, 6">
 <p>Mean: <span class="math inline">\(12 \div 3 = 4\)</span>.</p>
-<p>Differences: <span class="math inline">\(-2, 0, 2\)</span>. Squares: <span class="math inline">\(4, 0, 4\)</span>. Sum: 8.</p>
+<p>Differences: <span class="math inline">\(-2, 0, 2\)</span>. Squares: <span class="math inline">\(4, 0, 4\)</span>. So <span class="math inline">\(\Sigma(x - \bar{x})^2 = 8\)</span>.</p>
 <p><span class="math inline">\(s = \sqrt{8 \div 2} = \sqrt{4} = 2\)</span></p>
 </div>
 <hr>

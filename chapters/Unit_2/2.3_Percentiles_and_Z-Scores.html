@@ -276,6 +276,35 @@ window.Quarto = {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 3: Two-Way Tables</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.1_Two-Way_Tables_and_Relative_Frequency.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.1 - Two-Way Tables and Relative Frequency</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.2_Marginal_and_Conditional_Distributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.2 - Marginal and Conditional Distributions</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../glossary.html" class="sidebar-item-text sidebar-link">
@@ -337,7 +366,7 @@ window.Quarto = {
 </ul>
 </div>
 <div class="vocab">
-<p><a href="../../glossary.html#glossary-percentile" class="glossary-link" data-slug="percentile" data-term="percentile" data-original-href="#glossary-percentile">percentile</a>, <a href="../../glossary.html#glossary-z-score" class="glossary-link" data-slug="z-score" data-term="z-score" data-original-href="#glossary-z-score">z-score</a>, <a href="../../glossary.html#glossary-standard-deviation" class="glossary-link" data-slug="standard-deviation" data-term="standard deviation" data-original-href="#glossary-standard-deviation">standard deviation</a>, <a href="../../glossary.html#glossary-mean" class="glossary-link" data-slug="mean" data-term="mean" data-original-href="#glossary-mean">mean</a></p>
+<p><a href="../../glossary.html#glossary-percentile" class="glossary-link" data-slug="percentile" data-term="percentile" data-original-href="#glossary-percentile">percentile</a>, <a href="../../glossary.html#glossary-z-score" class="glossary-link" data-slug="z-score" data-term="z-score" data-original-href="#glossary-z-score">z-score</a>, <a href="../../glossary.html#glossary-mu" class="glossary-link" data-slug="mu" data-term="mu" data-original-href="#glossary-mu">mu</a>, <a href="../../glossary.html#glossary-sigma" class="glossary-link" data-slug="sigma" data-term="sigma" data-original-href="#glossary-sigma">sigma</a>, <a href="../../glossary.html#glossary-standard-deviation" class="glossary-link" data-slug="standard-deviation" data-term="standard deviation" data-original-href="#glossary-standard-deviation">standard deviation</a>, <a href="../../glossary.html#glossary-mean" class="glossary-link" data-slug="mean" data-term="mean" data-original-href="#glossary-mean">mean</a></p>
 </div>
 <div class="guided-notes-link">
 <p><a href="../../handouts/Unit_2/2.3_Percentiles_and_Z-Scores.pdf" target="_blank">Printable mini lesson</a> - notes and practice problems to print and write on.</p>
@@ -370,12 +399,15 @@ window.Quarto = {
 <div class="remember" title="Z-Score">
 <p>A <strong>z-score</strong> tells how many standard deviations a value is above or below the mean.</p>
 <p><span class="math display">\[
-z = \frac{\text{value} - \text{mean}}{\text{SD}}
+z = \frac{x - \mu}{\sigma}
 \]</span></p>
 <ul>
-<li><span class="math inline">\(z &gt; 0\)</span>: above the mean</li>
-<li><span class="math inline">\(z &lt; 0\)</span>: below the mean</li>
-<li><span class="math inline">\(z = 0\)</span>: equal to the mean</li>
+<li><p><span class="math inline">\(x\)</span> is the value.</p></li>
+<li><p><span class="math inline">\(\mu\)</span> (the Greek letter <strong>mu</strong>) is the mean.</p></li>
+<li><p><span class="math inline">\(\sigma\)</span> (a small <strong>sigma</strong>) is the standard deviation. Do not mix it up with the capital <span class="math inline">\(\Sigma\)</span>, which means add up.</p></li>
+<li><p><span class="math inline">\(z &gt; 0\)</span>: above the mean</p></li>
+<li><p><span class="math inline">\(z &lt; 0\)</span>: below the mean</p></li>
+<li><p><span class="math inline">\(z = 0\)</span>: equal to the mean</p></li>
 </ul>
 </div>
 <p><strong>Example:</strong> A test has a mean of 70 and an SD of 10. What is the z-score of 85?</p>
@@ -433,7 +465,7 @@ z = \frac{55 - 70}{10} = \frac{-15}{10} = -1.5
 <h3 class="anchored" data-anchor-id="going-backward">2.3.4 - Going Backward</h3>
 <p>If you know the z-score, you can find the value.</p>
 <p><span class="math display">\[
-\text{value} = \text{mean} + z \times \text{SD}
+x = \mu + z\sigma
 \]</span></p>
 <p><strong>Example:</strong> On Ana’s test, what score has <span class="math inline">\(z = -2\)</span>?</p>
 <p><span class="math display">\[
