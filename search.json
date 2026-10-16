@@ -1,0 +1,174 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DHS Statistics",
+    "section": "",
+    "text": "Welcome to Statistics\nWelcome to Statistics at Frederick Douglass High School!\nStatistics is the math of data. Every day, people use numbers to tell you something. An ad says “average pay is \\(\\$80{,}000\\).” A news story says “most people agree.” Statistics helps you check if those numbers tell the truth.",
+    "crumbs": [
+      "Welcome to Statistics"
+    ]
+  },
+  {
+    "objectID": "index.html#how-this-book-works",
+    "href": "index.html#how-this-book-works",
+    "title": "DHS Statistics",
+    "section": "🧭 How This Book Works",
+    "text": "🧭 How This Book Works\nYou do most of your work on Khan Academy, in the course Statistics essentials. You work at your own speed.\nThis book has the mini lessons we do at the start of class. Each mini lesson:\n\nMatches one or two Khan Academy lessons\nShows the key ideas with examples\nHas a printable sheet with practice problems\n\nDo the mini lesson first. Then do the matching Khan Academy lessons.",
+    "crumbs": [
+      "Welcome to Statistics"
+    ]
+  },
+  {
+    "objectID": "index.html#mini-lessons-and-khan-academy",
+    "href": "index.html#mini-lessons-and-khan-academy",
+    "title": "DHS Statistics",
+    "section": "🗺️ Mini Lessons and Khan Academy",
+    "text": "🗺️ Mini Lessons and Khan Academy\n\n\n\nMini lesson\nTopic\nKhan Academy\n\n\n\n\nUnit 1: Displaying One Variable\n\n\n\n\n1.1\nFrequency tables, dot plots, and histograms\nUnit 1, lessons 1 and 2\n\n\n1.2\nMean, median, and shape\nUnit 1, lesson 3\n\n\n1.3\nQuartiles, IQR, and box plots\nUnit 1, lessons 4 and 5\n\n\n1.4\nReading box plots and outliers\nUnit 1, lesson 5\n\n\nUnit 2: Analyzing One Variable\n\n\n\n\n2.1\nStandard deviation\nUnit 2, lesson 1\n\n\n2.2\nChoosing measures and comparing distributions\nUnit 2, lessons 1 and 2\n\n\n2.3\nPercentiles and z-scores\nUnit 2, lesson 3\n\n\n2.4\nNormal distributions and the empirical rule\nUnit 2, lesson 4\n\n\n2.5\nNormal calculations with a z-table\nUnit 2, lesson 5\n\n\n2.6\nNormal calculations in reverse\nUnit 2, lesson 5\n\n\nUnit 3: Two-Way Tables\n\n\n\n\n3.1\nTwo-way tables and relative frequency\nUnit 3, lesson 1\n\n\n3.2\nMarginal and conditional distributions\nUnit 3, lesson 2\n\n\nUnit 4: Scatterplots\n\n\n\n\n4.1\nScatterplots and lines of best fit\nUnit 4, lesson 1\n\n\n4.2\nSlope, intercept, and correlation\nUnit 4, lesson 2\n\n\n4.3\nResiduals\nUnit 4, lesson 3\n\n\nUnit 5: Study Design\n\n\n\n\n5.1\nSamples, studies, and bias\nUnit 5, lessons 1 and 2\n\n\n5.2\nSampling methods\nUnit 5, lesson 3\n\n\n5.3\nExperiments\nUnit 5, lesson 4\n\n\n5.4\nWhat a study can prove\nUnit 5, lesson 5\n\n\nUnit 6: Probability\n\n\n\n\n6.1\nVenn diagrams and the addition rule\nUnit 6, lesson 1\n\n\n6.2\nThe multiplication rule\nUnit 6, lesson 2\n\n\n6.3\nConditional probability\nUnit 6, lesson 3\n\n\n6.4\nSimulations\nUnit 6, lesson 4\n\n\n6.5\nPermutations\nUnit 6, lesson 5\n\n\n6.6\nCombinations\nUnit 6, lesson 6\n\n\n6.7\nProbability with counting\nUnit 6, lesson 7\n\n\nUnit 7: Probability Distributions\n\n\n\n\n7.1\nProbability distributions\nUnit 7, lessons 1 and 2\n\n\n7.2\nExpected value\nUnit 7, lessons 3 and 4\n\n\n7.3\nExpected payoff\nUnit 7, lesson 4\n\n\n\nMini lessons without a link are coming soon.",
+    "crumbs": [
+      "Welcome to Statistics"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/index.html",
+    "href": "chapters/Unit_1/index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "What You’ll Learn\nWelcome to Unit 1! Here you learn to show data with pictures and to describe it with a few numbers.\nA list of 30 numbers is hard to read. A good graph shows the whole story at once.\nBy the end of this unit, you will be able to:\nThis unit matches Unit 1: Displaying a single quantitative variable in Khan Academy’s Statistics essentials.",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/index.html#what-youll-learn",
+    "href": "chapters/Unit_1/index.html#what-youll-learn",
+    "title": "Introduction",
+    "section": "",
+    "text": "Make and read frequency tables, dot plots, and histograms\nFind the mean and the median\nTell how the shape of a graph changes the mean\nFind quartiles and the IQR\nMake and read box plots",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/index.html#topics-in-this-unit",
+    "href": "chapters/Unit_1/index.html#topics-in-this-unit",
+    "title": "Introduction",
+    "section": "Topics in This Unit",
+    "text": "Topics in This Unit\nFrequency Tables, Dot Plots & Histograms Count data, then show it with a table, a dot plot, or a histogram.\nMean, Median & Shape Find the center of the data. See how a long tail pulls the mean.\nQuartiles, IQR & Box Plots Cut the data into four parts and draw a box plot.\nReading Box Plots & Outliers (coming soon) Read a box plot and find values that are far from the rest.",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.1_Frequency_Tables_Dot_Plots_and_Histograms.html",
+    "href": "chapters/Unit_1/1.1_Frequency_Tables_Dot_Plots_and_Histograms.html",
+    "title": "1.1 - Frequency Tables, Dot Plots, and Histograms",
+    "section": "",
+    "text": "👥 Learn Together\nEleven students say how many siblings they have:\nWhat number is most common? It is hard to see in a list. A table or a graph shows it at once.\nIn this lesson, you learn three ways to show data: frequency tables, dot plots, and histograms.",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "1.1 - Frequency Tables, Dot Plots, and Histograms"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.1_Frequency_Tables_Dot_Plots_and_Histograms.html#learn",
+    "href": "chapters/Unit_1/1.1_Frequency_Tables_Dot_Plots_and_Histograms.html#learn",
+    "title": "1.1 - Frequency Tables, Dot Plots, and Histograms",
+    "section": "",
+    "text": "1.1.1 - Frequency Tables\nFrequency means how many times something happens.\nA frequency table lists each value and its frequency. Read the data one value at a time. Make a tally mark for each one. Then count the marks.\nHere is the siblings data:\n\n\n\nSiblings\nTally\nFrequency\n\n\n\n\n0\n||\n2\n\n\n1\n||||\n4\n\n\n2\n|||\n3\n\n\n3\n|\n1\n\n\n4\n|\n1\n\n\n\nThe most common number of siblings is 1.\n\nAdd the frequency column. The total should equal the number of data values.\n\\[2 + 4 + 3 + 1 + 1 = 11 \\text{ students}\\]\n\n\n\n\n1.1.2 - Dot Plots\nA dot plot puts the values on a number line. Each value gets one dot. Dots for the same value stack up.\nThis dot plot shows the same siblings data:\n\n\n\n\n\nThe height of each stack is the frequency. The stack above 1 is the tallest, so 1 is the most common.\n\n\nHow many students have 2 siblings?\nHow many students have more than 1 sibling?\n\n\n\n\nThe stack above 2 has 3 dots.\nCount the dots above 2, 3, and 4: \\(3 + 1 + 1 = 5\\) students.\n\n\n\n\n\n1.1.3 - Histograms\nA histogram is a bar graph for number data. The values are put into groups called bins. Each bar is one bin.\n\n\n\n\n\nThe tallest bar is 170 to 180. So 7 students are from 170 cm to 180 cm tall.\nThere are no gaps between the bars. The bins touch, like the numbers on a number line.\n\nIf a value is on a line between two bars, it goes in the bar on the right.\n160 goes in the 160 to 170 bar.\n\n\nThe graph shows that 6 students are from 160 cm to 170 cm. It does not show their exact heights. A dot plot shows every value. A histogram does not.\n\n\nWhen there is a lot of data, or the values are spread out.\nHeights in centimeters can be 158, 163, 171, 179, and so on. A dot plot would have many short stacks. A histogram groups them, so the shape is easy to see.\n\n\n\nRead the title.\nRead both axis labels.\nCheck the scale.",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "1.1 - Frequency Tables, Dot Plots, and Histograms"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.1_Frequency_Tables_Dot_Plots_and_Histograms.html#practice",
+    "href": "chapters/Unit_1/1.1_Frequency_Tables_Dot_Plots_and_Histograms.html#practice",
+    "title": "1.1 - Frequency Tables, Dot Plots, and Histograms",
+    "section": "✍️ Practice On Your Own",
+    "text": "✍️ Practice On Your Own\nWork with a partner. Compare answers when you finish each problem.\nDot Plots\n\nThis dot plot shows how many pets some students have.\n\n\nHow many students have exactly 2 pets?\nHow many students are in the data?\nHow many students have more than 2 pets?\nWhat number of pets is most common?\n\nA soccer team scored these goals in 12 games. Make a dot plot.\n2, 0, 1, 3, 1, 1, 4, 2, 0, 1, 2, 1\n\n\nFrequency Tables\n\n20 students said how many siblings they have. Make a frequency table.\n1, 2, 0, 3, 1, 1, 2, 4, 0, 2, 1, 3, 2, 1, 0, 2, 1, 5, 2, 1\n\nHow many students have 2 or more siblings?\nHow can you use your table to check that you counted everyone?\n\nThis frequency table shows how many hours some students slept last night.\n\n\n\nHours of sleep\nFrequency\n\n\n\n\n5\n2\n\n\n6\n4\n\n\n7\n6\n\n\n8\n5\n\n\n9\n3\n\n\n\n\nHow many students are in the data?\nHow many students slept less than 7 hours?\nMake a dot plot of the same data.\n\n\n\nHistograms\n\nThis histogram shows how many minutes some students take to get to school.\n\n\nHow many students take from 20 to 30 minutes?\nHow many students take less than 20 minutes?\nHow many students are in the data?\nCan you tell from this graph how many students take exactly 15 minutes? Explain.\n\nA basketball player scored these points in 15 games.\n12, 8, 15, 21, 9, 14, 18, 10, 25, 13, 7, 16, 20, 11, 19\n\nMake a frequency table with the bins 5 to 10, 10 to 15, 15 to 20, 20 to 25, and 25 to 30. Remember the histogram rule.\nMake a histogram. Label both axes.",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "1.1 - Frequency Tables, Dot Plots, and Histograms"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.2_Mean_Median_and_Shape.html",
+    "href": "chapters/Unit_1/1.2_Mean_Median_and_Shape.html",
+    "title": "1.2 - Mean, Median, and Shape",
+    "section": "",
+    "text": "👥 Learn Together\nA small company puts this in a job ad:\nFour of the five people there earn less than \\(\\$40{,}000\\). How can the ad be true?\nIn this lesson, you learn two ways to find the center of data: the mean and the median. You also learn how the shape of a graph can pull them apart.",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "1.2 - Mean, Median, and Shape"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.2_Mean_Median_and_Shape.html#learn",
+    "href": "chapters/Unit_1/1.2_Mean_Median_and_Shape.html#learn",
+    "title": "1.2 - Mean, Median, and Shape",
+    "section": "",
+    "text": "1.2.1 - The Mean\nThe mean is also called the average.\n\n\nAdd all the values.\nDivide by how many values there are.\n\n\nExample 1: 2, 3, 8, 3, 4\n\\[\n2 + 3 + 8 + 3 + 4 = 20\n\\]\nThere are 5 values.\n\\[\n20 \\div 5 = 4\n\\]\nThe mean is 4.\n\n\n\n1.2.2 - The Median\nThe median is the middle value.\n\n\nPut the values in order.\nFind the middle value.\n\n\nExample 2: the same data, 2, 3, 8, 3, 4\nIn order: 2, 3, 3, 4, 8\nThe middle value is 3. So the median is 3.\nExample 3: an even number of values, 2, 3, 5, 8\nThere are two numbers in the middle: 3 and 5. The median is the number halfway between them.\n\\[\n(3 + 5) \\div 2 = 4\n\\]\nThe median is 4.\n\nMean: \\(6 + 1 + 9 + 4 = 20\\). Then \\(20 \\div 4 = 5\\). The mean is 5.\nMedian: In order: 1, 4, 6, 9. Then \\((4 + 6) \\div 2 = 5\\). The median is 5.\n\n\nThe mode is the value that happens most often. In 2, 3, 8, 3, 4, the mode is 3.\n\n\n\n\n1.2.3 - Shape Changes the Mean\nThe tail is the long, low side of a graph.\n\nThe mean is pulled toward the tail. The median is not pulled much.\n\n\n\n\n\n\n\n\n\nShape\nWhat it looks like\nMean and median\n\n\n\n\nSkewed left\nTail on the left\nmean &lt; median\n\n\nSymmetric\nBoth sides match\nmean ≈ median\n\n\nSkewed right\nTail on the right\nmean &gt; median\n\n\n\n\nThe pay is 30,000, 32,000, 35,000, 38,000, and 265,000 dollars.\nThe mean is \\(400{,}000 \\div 5 = 80{,}000\\) dollars. The owner’s pay is a long tail on the right. It pulls the mean up.\nThe median is 35,000 dollars. That is a better picture of a typical worker.\n\n\n\n\n1.2.4 - Real Example: US Household Income\nMost households earn a medium amount. A small number of households earn millions of dollars. That makes a long tail on the right.\n\n\n\n\n\n\n\nMedian: about \\(\\$84{,}000\\)\nMean: about \\(\\$121{,}000\\)\n\nHalf of households earn less than the median. Most households earn less than the mean.\nWhen you hear “the average household,” ask: is that the mean or the median?\nSource: US Census Bureau, Income in the United States: 2024. Median \\(\\$83{,}730\\). Mean about \\(\\$121{,}000\\).",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "1.2 - Mean, Median, and Shape"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.2_Mean_Median_and_Shape.html#practice",
+    "href": "chapters/Unit_1/1.2_Mean_Median_and_Shape.html#practice",
+    "title": "1.2 - Mean, Median, and Shape",
+    "section": "✍️ Practice On Your Own",
+    "text": "✍️ Practice On Your Own\nWork with a partner. Compare answers when you finish each problem.\nMean and Median\n\nA student recorded how many hours she slept each night for one week.\n7, 8, 6, 9, 7, 5, 7\n\nFind the mean.\nFind the median.\n\nSix students timed their walk to the bus stop, in minutes.\n15, 22, 18, 30, 19, 16\n\nFind the mean.\nFind the median.\n\nThis dot plot shows how many books some students read this month.\n\n\nHow many students are in the data?\nFind the median.\nFind the mean.\n\n\n\nOne Big Value\n\nA small company has 5 people. Here is what each person is paid in one year.\n\n\n\nPerson\nPay\n\n\n\n\nWorker A\n\\(\\$30{,}000\\)\n\n\nWorker B\n\\(\\$32{,}000\\)\n\n\nWorker C\n\\(\\$35{,}000\\)\n\n\nWorker D\n\\(\\$38{,}000\\)\n\n\nOwner\n\\(\\$265{,}000\\)\n\n\n\n\nFind the mean pay.\nFind the median pay.\nThe company puts this in a job ad: “Average pay at our company: \\(\\$80{,}000\\)!” Is this true? Is it fair to a person looking for a job? Explain.\nLeave out the owner. Find the mean pay of the 4 workers. How much did one person change the mean?\n\n\n\nShape\n\nLook at each histogram. For each one, name the shape. Then tell if the mean is greater than, less than, or about equal to the median.\n\nGuess the shape of each data set: skewed left, symmetric, or skewed right. Explain.\n\nThe price of every house sold in Columbia this year.\nScores on a very easy test. Most students score 90 to 100.\nThe heights of all adult women in Missouri.\n\nLook at the US household income graph above.\n\nWhy is the mean (\\(\\$121{,}000\\)) bigger than the median (\\(\\$84{,}000\\))?\nA news story says, “The average US household earns \\(\\$121{,}000\\).” Is this true? Does it describe a typical household? Explain.\nDo more than half of households earn less than \\(\\$121{,}000\\)? How do you know?",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "1.2 - Mean, Median, and Shape"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.3_Quartiles_IQR_and_Box_Plots.html",
+    "href": "chapters/Unit_1/1.3_Quartiles_IQR_and_Box_Plots.html",
+    "title": "1.3 - Quartiles, IQR, and Box Plots",
+    "section": "",
+    "text": "👥 Learn Together\nThe median cuts data into two halves. What if you cut each half in half again?\nYou get four parts. Each part has about 25% of the data. The numbers that make those cuts are called quartiles.\nIn this lesson, you find quartiles, use them to measure spread, and draw a box plot.",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "1.3 - Quartiles, IQR, and Box Plots"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.3_Quartiles_IQR_and_Box_Plots.html#learn",
+    "href": "chapters/Unit_1/1.3_Quartiles_IQR_and_Box_Plots.html#learn",
+    "title": "1.3 - Quartiles, IQR, and Box Plots",
+    "section": "",
+    "text": "1.3.1 - Finding Quartiles\n\n\nPut the data in order.\nFind the median. It splits the data into a lower half and an upper half.\nQ1 = the median of the lower half.\nQ3 = the median of the upper half.\n\nOdd number of values? Leave the median out of both halves.\n\nExample 1: an odd number of values (11)\n3, 4, 6, 7, 9, 10, 12, 13, 15, 18, 20\nThe median is 10. Leave it out of the halves.\n\n\n\nLower half\nUpper half\n\n\n\n\n3, 4, 6, 7, 9\n12, 13, 15, 18, 20\n\n\nQ1 = 6\nQ3 = 15\n\n\n\nExample 2: an even number of values (10)\n1, 3, 4, 6, 7, 9, 10, 12, 14, 18\nThere are two middle values, 7 and 9. The median is \\((7 + 9) \\div 2 = 8\\).\n\n\n\nLower half\nUpper half\n\n\n\n\n1, 3, 4, 6, 7\n9, 10, 12, 14, 18\n\n\nQ1 = 4\nQ3 = 12\n\n\n\n\n\n\n1.3.2 - The Five-Number Summary and the IQR\nThe five-number summary is five numbers:\nminimum, Q1, median, Q3, maximum\nThe interquartile range (IQR) shows how spread out the middle half of the data is.\n\\[\n\\text{IQR} = Q_3 - Q_1\n\\]\nFor Example 1: IQR \\(= 15 - 6 = 9\\).\nFor Example 2: IQR \\(= 12 - 4 = 8\\).\n\n5, 9, 2, 7, 4, 8, 3\n\n\nIn order: 2, 3, 4, 5, 7, 8, 9. The median is 5.\nLower half: 2, 3, 4. So Q1 = 3.\nUpper half: 7, 8, 9. So Q3 = 8.\nFive-number summary: 2, 3, 5, 8, 9. IQR \\(= 8 - 3 = 5\\).\n\n\n\n\n1.3.3 - Box Plots\nA box plot draws the five-number summary on a number line. Here is Example 1.\n\n\n\n\n\n\nThe box goes from Q1 to Q3. Its length is the IQR.\nThe line inside the box is the median.\nThe whiskers go out to the minimum and the maximum.\n\n\nThe 4 parts have the same number of values, not the same width. A short part means the values are packed close together. A long part means they are spread out.\n\n\nThe range is maximum minus minimum. One extreme value changes it a lot.\nThe IQR only uses the middle half of the data. One extreme value does not move it. This is like the median and the mean.",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "1.3 - Quartiles, IQR, and Box Plots"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.3_Quartiles_IQR_and_Box_Plots.html#practice",
+    "href": "chapters/Unit_1/1.3_Quartiles_IQR_and_Box_Plots.html#practice",
+    "title": "1.3 - Quartiles, IQR, and Box Plots",
+    "section": "✍️ Practice On Your Own",
+    "text": "✍️ Practice On Your Own\nWork with a partner. Compare answers when you finish each problem.\nFive-Number Summary\n\nFind the five-number summary and the IQR.\n4, 8, 1, 6, 9, 3, 7\nFind the five-number summary and the IQR.\n12, 15, 10, 20, 18, 11, 16, 14\n\n\nBox Plots\n\nEleven students recorded how many minutes they spent on homework last night.\n30, 10, 45, 5, 25, 60, 15, 30, 10, 40, 20\n\nFind the five-number summary.\nMake a box plot.\nWhat is the IQR? What does it tell you?\n\nTwelve students counted how many texts they sent in one hour.\n13, 2, 20, 8, 30, 12, 5, 18, 10, 24, 8, 15\n\nFind the five-number summary.\nMake a box plot.\nWhich part of the box plot is the longest? What does that tell you about the data?\n\n\n\nQuartiles from a Graph\n\nThis dot plot shows how many pets some students have.\n\n\nHow many students are in the data?\nFind Q1, the median, and Q3.\nFind the IQR.\n\nLook at these two data sets.\nSet A: 1, 2, 3, 4, 5, 6, 7\nSet B: 1, 2, 3, 4, 5, 6, 70\n\nFind the IQR of each set.\nFind the range (maximum minus minimum) of each set.\nOne number changed. Which measure of spread changed a lot? Which did not change? Why?",
+    "crumbs": [
+      "Unit 1: Displaying One Variable",
+      "1.3 - Quartiles, IQR, and Box Plots"
+    ]
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "bin\nOne group of values in a histogram. Each bar of a histogram is one bin.\n\nExample:\nThe bin “10 to 20” holds every value from 10 up to (but not including) 20.\n\nSee Also: histogram\n\n\n\nbox plot\nA graph that shows the five-number summary. A box goes from Q1 to Q3, with a line at the median. Lines called whiskers go out to the minimum and the maximum.\nSee Also: five-number summary, quartile\n\n\n\ndata\nFacts or numbers that we collect to learn about something.\n\nExample:\nThe number of pets each student in a class has.\n\n\n\n\ndistribution\nAll the values in a data set and how often each one happens. A graph of the data shows its distribution.\nSee Also: shape\n\n\n\ndot plot\nA graph that puts one dot above a number line for each data value. Dots for the same value stack up.\nSee Also: frequency table, histogram\n\n\n\nfive-number summary\nFive numbers that describe a data set: the minimum, Q1, the median, Q3, and the maximum.\nSee Also: box plot, quartile\n\n\n\nfrequency\nHow many times a value happens in a data set.\n\nExample:\nIn the data 2, 3, 3, 5, the value 3 has a frequency of 2.\n\n\n\n\nfrequency table\nA table that lists each value and its frequency.\nSee Also: frequency, tally\n\n\n\nhistogram\nA bar graph for number data. The values are put in groups called bins. The bars touch, and the height of each bar is how many values are in that bin.\nSee Also: bin, dot plot\n\n\n\ninterquartile range\nThe distance from Q1 to Q3. It shows how spread out the middle half of the data is. Also called the IQR.\n\\[\\text{IQR} = Q_3 - Q_1\\]\nSee Also: quartile, range\n\n\n\nIQR\nShort for interquartile range: \\(Q_3 - Q_1\\). It shows how spread out the middle half of the data is.\nSee Also: interquartile range\n\n\n\nmaximum\nThe largest value in a data set.\n\n\n\nmean\nThe sum of all the values divided by how many values there are. Also called the average.\n\nExample:\nThe mean of 2, 3, 8, 3, 4 is \\(20 \\div 5 = 4\\).\n\nSee Also: median\n\n\n\nmedian\nThe middle value when the data is in order. With an even number of values, the median is halfway between the two middle values.\n\nExample:\nThe median of 2, 3, 3, 4, 8 is 3.\n\nSee Also: mean\n\n\n\nminimum\nThe smallest value in a data set.\n\n\n\nmode\nThe value that happens most often in a data set.\n\n\n\noutlier\nA value that is far away from the rest of the data.\n\n\n\nquartile\nThe three values that cut ordered data into four parts with the same number of values. Q1 is the median of the lower half. The median is Q2. Q3 is the median of the upper half.\nSee Also: five-number summary, interquartile range\n\n\n\nrange\nThe maximum minus the minimum. It shows how spread out all the data is.\nSee Also: interquartile range\n\n\n\nshape\nWhat a graph of the data looks like: symmetric, skewed left, or skewed right.\nSee Also: symmetric, skewed left, skewed right\n\n\n\nskewed left\nA shape where most values are high and a long tail stretches to the left. The mean is less than the median.\nSee Also: skewed right, tail\n\n\n\nskewed right\nA shape where most values are low and a long tail stretches to the right. The mean is greater than the median.\n\nExample:\nUS household income is skewed right.\n\nSee Also: skewed left, tail\n\n\n\nsymmetric\nA shape where the left side and the right side look about the same. The mean and the median are about equal.\n\n\n\ntail\nThe long, low side of a graph. The mean is pulled toward the tail.\n\n\n\ntally\nA mark made for each data value as you count it.",
+    "crumbs": [
+      "Glossary"
+    ]
+  }
+]
