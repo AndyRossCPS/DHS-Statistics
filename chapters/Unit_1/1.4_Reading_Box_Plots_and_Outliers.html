@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../glossary.html" rel="next">
+<link href="../../chapters/Unit_2/index.html" rel="next">
 <link href="../../chapters/Unit_1/1.3_Quartiles_IQR_and_Box_Plots.html" rel="prev">
 <link href="../../images/logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -223,6 +223,59 @@ window.Quarto = {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 2: Analyzing One Variable</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.1_Standard_Deviation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.1 - Standard Deviation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.2_Choosing_Measures_and_Comparing_Distributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.2 - Choosing Measures and Comparing Distributions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.3_Percentiles_and_Z-Scores.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.3 - Percentiles and Z-Scores</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.4_Normal_Distributions_and_the_Empirical_Rule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.4 - Normal Distributions and the Empirical Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.5_Normal_Calculations_with_a_Z-Table.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.5 - Normal Calculations with a Z-Table</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.6 - Normal Calculations in Reverse</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../glossary.html" class="sidebar-item-text sidebar-link">
@@ -273,7 +326,7 @@ window.Quarto = {
 
 <p>Nine students ride the bus to school. Eight of them ride from 12 to 22 minutes. One student rides 45 minutes.</p>
 <p>Is 45 just a long ride, or is it far away from the rest? Statistics has a rule to decide.</p>
-<p>In this lesson, you read box plots, compare two box plots, and find <a href="../../glossary.html#glossary-outlier" class="glossary-link" data-term="outliers" data-slug="outlier" data-original-href="#glossary-outlier">outliers</a>.</p>
+<p>In this lesson, you read box plots, compare two box plots, and find <a href="../../glossary.html#glossary-outlier" class="glossary-link" data-slug="outlier" data-term="outliers" data-original-href="#glossary-outlier">outliers</a>.</p>
 <div class="objectives">
 <ul class="task-list">
 <li><label><input type="checkbox">I read the five-number summary from a box plot.</label></li>
@@ -283,7 +336,7 @@ window.Quarto = {
 </ul>
 </div>
 <div class="vocab">
-<p><a href="../../glossary.html#glossary-box-plot" class="glossary-link" data-term="box plot" data-slug="box-plot" data-original-href="#glossary-box-plot">box plot</a>, <a href="../../glossary.html#glossary-whisker" class="glossary-link" data-term="whisker" data-slug="whisker" data-original-href="#glossary-whisker">whisker</a>, <a href="../../glossary.html#glossary-outlier" class="glossary-link" data-term="outlier" data-slug="outlier" data-original-href="#glossary-outlier">outlier</a>, <a href="../../glossary.html#glossary-fence" class="glossary-link" data-term="fence" data-slug="fence" data-original-href="#glossary-fence">fence</a>, <a href="../../glossary.html#glossary-interquartile-range" class="glossary-link" data-term="interquartile range" data-slug="interquartile-range" data-original-href="#glossary-interquartile-range">interquartile range</a></p>
+<p><a href="../../glossary.html#glossary-box-plot" class="glossary-link" data-slug="box-plot" data-term="box plot" data-original-href="#glossary-box-plot">box plot</a>, <a href="../../glossary.html#glossary-whisker" class="glossary-link" data-slug="whisker" data-term="whisker" data-original-href="#glossary-whisker">whisker</a>, <a href="../../glossary.html#glossary-outlier" class="glossary-link" data-slug="outlier" data-term="outlier" data-original-href="#glossary-outlier">outlier</a>, <a href="../../glossary.html#glossary-fence" class="glossary-link" data-slug="fence" data-term="fence" data-original-href="#glossary-fence">fence</a>, <a href="../../glossary.html#glossary-interquartile-range" class="glossary-link" data-slug="interquartile-range" data-term="interquartile range" data-original-href="#glossary-interquartile-range">interquartile range</a></p>
 </div>
 <div class="guided-notes-link">
 <p><a href="../../handouts/Unit_1/1.4_Reading_Box_Plots_and_Outliers.pdf" target="_blank">Printable mini lesson</a> - notes and practice problems to print and write on.</p>
@@ -372,7 +425,7 @@ window.Quarto = {
 </section>
 <section id="outliers" class="level3">
 <h3 class="anchored" data-anchor-id="outliers">1.4.3 - Outliers</h3>
-<p>An <a href="../../glossary.html#glossary-outlier" class="glossary-link" data-term="outlier" data-slug="outlier" data-original-href="#glossary-outlier">outlier</a> is a value far away from the rest of the data.</p>
+<p>An <a href="../../glossary.html#glossary-outlier" class="glossary-link" data-slug="outlier" data-term="outlier" data-original-href="#glossary-outlier">outlier</a> is a value far away from the rest of the data.</p>
 <div class="remember" title="The 1.5 × IQR Rule">
 <ol type="1">
 <li>Find Q1, Q3, and the IQR.</li>
@@ -395,7 +448,7 @@ window.Quarto = {
 <p><img src="../../images/Unit_1/1.4_outlier_example.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="560"></p>
 </figure>
 </div>
-<p>On a box plot, an outlier is a <strong>dot</strong>. The <a href="../../glossary.html#glossary-whisker" class="glossary-link" data-term="whisker" data-slug="whisker" data-original-href="#glossary-whisker">whisker</a> stops at the last value that is not an outlier. Here, that is 14.</p>
+<p>On a box plot, an outlier is a <strong>dot</strong>. The <a href="../../glossary.html#glossary-whisker" class="glossary-link" data-slug="whisker" data-term="whisker" data-original-href="#glossary-whisker">whisker</a> stops at the last value that is not an outlier. Here, that is 14.</p>
 <div class="you-try-m" title="Is there an outlier?">
 <p>Q1 = 20, Q3 = 30. Is 48 an outlier?</p>
 </div>
@@ -1164,8 +1217,8 @@ window.Quarto = {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../glossary.html" class="pagination-link" aria-label="Glossary">
-        <span class="nav-page-text">Glossary</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../chapters/Unit_2/index.html" class="pagination-link" aria-label="Introduction">
+        <span class="nav-page-text">Introduction</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

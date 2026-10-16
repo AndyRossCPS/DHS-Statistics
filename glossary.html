@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./chapters/Unit_1/1.4_Reading_Box_Plots_and_Outliers.html" rel="prev">
+<link href="./chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html" rel="prev">
 <link href="./images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -222,6 +222,59 @@ window.Quarto = {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 2: Analyzing One Variable</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_2/2.1_Standard_Deviation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.1 - Standard Deviation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_2/2.2_Choosing_Measures_and_Comparing_Distributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.2 - Choosing Measures and Comparing Distributions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_2/2.3_Percentiles_and_Z-Scores.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.3 - Percentiles and Z-Scores</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_2/2.4_Normal_Distributions_and_the_Empirical_Rule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.4 - Normal Distributions and the Empirical Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_2/2.5_Normal_Calculations_with_a_Z-Table.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.5 - Normal Calculations with a Z-Table</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.6 - Normal Calculations in Reverse</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./glossary.html" class="sidebar-item-text sidebar-link active">
@@ -240,9 +293,11 @@ window.Quarto = {
   <ul>
   <li><a href="#glossary-bin" id="toc-glossary-bin" class="nav-link active" data-scroll-target="#glossary-bin">bin</a></li>
   <li><a href="#glossary-box-plot" id="toc-glossary-box-plot" class="nav-link" data-scroll-target="#glossary-box-plot">box plot</a></li>
+  <li><a href="#glossary-center" id="toc-glossary-center" class="nav-link" data-scroll-target="#glossary-center">center</a></li>
   <li><a href="#glossary-data" id="toc-glossary-data" class="nav-link" data-scroll-target="#glossary-data">data</a></li>
   <li><a href="#glossary-distribution" id="toc-glossary-distribution" class="nav-link" data-scroll-target="#glossary-distribution">distribution</a></li>
   <li><a href="#glossary-dot-plot" id="toc-glossary-dot-plot" class="nav-link" data-scroll-target="#glossary-dot-plot">dot plot</a></li>
+  <li><a href="#glossary-empirical-rule" id="toc-glossary-empirical-rule" class="nav-link" data-scroll-target="#glossary-empirical-rule">empirical rule</a></li>
   <li><a href="#glossary-fence" id="toc-glossary-fence" class="nav-link" data-scroll-target="#glossary-fence">fence</a></li>
   <li><a href="#glossary-five-number-summary" id="toc-glossary-five-number-summary" class="nav-link" data-scroll-target="#glossary-five-number-summary">five-number summary</a></li>
   <li><a href="#glossary-frequency" id="toc-glossary-frequency" class="nav-link" data-scroll-target="#glossary-frequency">frequency</a></li>
@@ -255,16 +310,25 @@ window.Quarto = {
   <li><a href="#glossary-median" id="toc-glossary-median" class="nav-link" data-scroll-target="#glossary-median">median</a></li>
   <li><a href="#glossary-minimum" id="toc-glossary-minimum" class="nav-link" data-scroll-target="#glossary-minimum">minimum</a></li>
   <li><a href="#glossary-mode" id="toc-glossary-mode" class="nav-link" data-scroll-target="#glossary-mode">mode</a></li>
+  <li><a href="#glossary-normal-distribution" id="toc-glossary-normal-distribution" class="nav-link" data-scroll-target="#glossary-normal-distribution">normal distribution</a></li>
   <li><a href="#glossary-outlier" id="toc-glossary-outlier" class="nav-link" data-scroll-target="#glossary-outlier">outlier</a></li>
+  <li><a href="#glossary-percentile" id="toc-glossary-percentile" class="nav-link" data-scroll-target="#glossary-percentile">percentile</a></li>
+  <li><a href="#glossary-population" id="toc-glossary-population" class="nav-link" data-scroll-target="#glossary-population">population</a></li>
   <li><a href="#glossary-quartile" id="toc-glossary-quartile" class="nav-link" data-scroll-target="#glossary-quartile">quartile</a></li>
   <li><a href="#glossary-range" id="toc-glossary-range" class="nav-link" data-scroll-target="#glossary-range">range</a></li>
+  <li><a href="#glossary-sample" id="toc-glossary-sample" class="nav-link" data-scroll-target="#glossary-sample">sample</a></li>
   <li><a href="#glossary-shape" id="toc-glossary-shape" class="nav-link" data-scroll-target="#glossary-shape">shape</a></li>
   <li><a href="#glossary-skewed-left" id="toc-glossary-skewed-left" class="nav-link" data-scroll-target="#glossary-skewed-left">skewed left</a></li>
   <li><a href="#glossary-skewed-right" id="toc-glossary-skewed-right" class="nav-link" data-scroll-target="#glossary-skewed-right">skewed right</a></li>
+  <li><a href="#glossary-spread" id="toc-glossary-spread" class="nav-link" data-scroll-target="#glossary-spread">spread</a></li>
+  <li><a href="#glossary-standard-deviation" id="toc-glossary-standard-deviation" class="nav-link" data-scroll-target="#glossary-standard-deviation">standard deviation</a></li>
   <li><a href="#glossary-symmetric" id="toc-glossary-symmetric" class="nav-link" data-scroll-target="#glossary-symmetric">symmetric</a></li>
   <li><a href="#glossary-tail" id="toc-glossary-tail" class="nav-link" data-scroll-target="#glossary-tail">tail</a></li>
   <li><a href="#glossary-tally" id="toc-glossary-tally" class="nav-link" data-scroll-target="#glossary-tally">tally</a></li>
+  <li><a href="#glossary-variance" id="toc-glossary-variance" class="nav-link" data-scroll-target="#glossary-variance">variance</a></li>
   <li><a href="#glossary-whisker" id="toc-glossary-whisker" class="nav-link" data-scroll-target="#glossary-whisker">whisker</a></li>
+  <li><a href="#glossary-z-score" id="toc-glossary-z-score" class="nav-link" data-scroll-target="#glossary-z-score">z-score</a></li>
+  <li><a href="#glossary-z-table" id="toc-glossary-z-table" class="nav-link" data-scroll-target="#glossary-z-table">z-table</a></li>
   </ul>
 </nav>
     </div>
@@ -297,13 +361,19 @@ window.Quarto = {
 <p><strong>Example:</strong></p>
 <p>The bin “10 to 20” holds every value from 10 up to (but not including) 20.</p>
 </blockquote>
-<p><strong>See Also:</strong> <a href="#glossary-histogram" class="glossary-link" data-original-href="#glossary-histogram" data-slug="histogram" data-term="histogram">histogram</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-histogram" class="glossary-link" data-term="histogram" data-slug="histogram" data-original-href="#glossary-histogram">histogram</a></p>
 <hr>
 </section>
 <section id="glossary-box-plot" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-box-plot">box plot</h3>
 <p>A graph that shows the five-number summary. A box goes from Q1 to Q3, with a line at the median. Lines called whiskers go out to the minimum and the maximum.</p>
-<p><strong>See Also:</strong> <a href="#glossary-five-number-summary" class="glossary-link" data-original-href="#glossary-five-number-summary" data-slug="five-number-summary" data-term="five-number summary">five-number summary</a>, <a href="#glossary-quartile" class="glossary-link" data-original-href="#glossary-quartile" data-slug="quartile" data-term="quartile">quartile</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-five-number-summary" class="glossary-link" data-term="five-number summary" data-slug="five-number-summary" data-original-href="#glossary-five-number-summary">five-number summary</a>, <a href="#glossary-quartile" class="glossary-link" data-term="quartile" data-slug="quartile" data-original-href="#glossary-quartile">quartile</a></p>
+<hr>
+</section>
+<section id="glossary-center" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-center">center</h3>
+<p>A single number that describes a typical value in a data set. The mean and the median are measures of center.</p>
+<p><strong>See Also:</strong> <a href="#glossary-mean" class="glossary-link" data-term="mean" data-slug="mean" data-original-href="#glossary-mean">mean</a>, <a href="#glossary-median" class="glossary-link" data-term="median" data-slug="median" data-original-href="#glossary-median">median</a>, <a href="#glossary-spread" class="glossary-link" data-term="spread" data-slug="spread" data-original-href="#glossary-spread">spread</a></p>
 <hr>
 </section>
 <section id="glossary-data" class="level3">
@@ -318,25 +388,31 @@ window.Quarto = {
 <section id="glossary-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-distribution">distribution</h3>
 <p>All the values in a data set and how often each one happens. A graph of the data shows its distribution.</p>
-<p><strong>See Also:</strong> <a href="#glossary-shape" class="glossary-link" data-original-href="#glossary-shape" data-slug="shape" data-term="shape">shape</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-shape" class="glossary-link" data-term="shape" data-slug="shape" data-original-href="#glossary-shape">shape</a></p>
 <hr>
 </section>
 <section id="glossary-dot-plot" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-dot-plot">dot plot</h3>
 <p>A graph that puts one dot above a number line for each data value. Dots for the same value stack up.</p>
-<p><strong>See Also:</strong> <a href="#glossary-frequency-table" class="glossary-link" data-original-href="#glossary-frequency-table" data-slug="frequency-table" data-term="frequency table">frequency table</a>, <a href="#glossary-histogram" class="glossary-link" data-original-href="#glossary-histogram" data-slug="histogram" data-term="histogram">histogram</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-frequency-table" class="glossary-link" data-term="frequency table" data-slug="frequency-table" data-original-href="#glossary-frequency-table">frequency table</a>, <a href="#glossary-histogram" class="glossary-link" data-term="histogram" data-slug="histogram" data-original-href="#glossary-histogram">histogram</a></p>
+<hr>
+</section>
+<section id="glossary-empirical-rule" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-empirical-rule">empirical rule</h3>
+<p>In a normal distribution, about 68% of the data is within 1 standard deviation of the mean, about 95% is within 2, and about 99.7% is within 3. Also called the 68-95-99.7 rule.</p>
+<p><strong>See Also:</strong> <a href="#glossary-normal-distribution" class="glossary-link" data-term="normal distribution" data-slug="normal-distribution" data-original-href="#glossary-normal-distribution">normal distribution</a></p>
 <hr>
 </section>
 <section id="glossary-fence" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-fence">fence</h3>
 <p>A cutoff for outliers. The lower fence is <span class="math inline">\(Q_1 - 1.5 \times \text{IQR}\)</span>. The upper fence is <span class="math inline">\(Q_3 + 1.5 \times \text{IQR}\)</span>. A value outside the fences is an outlier.</p>
-<p><strong>See Also:</strong> <a href="#glossary-outlier" class="glossary-link" data-original-href="#glossary-outlier" data-slug="outlier" data-term="outlier">outlier</a>, <a href="#glossary-interquartile-range" class="glossary-link" data-original-href="#glossary-interquartile-range" data-slug="interquartile-range" data-term="interquartile range">interquartile range</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-outlier" class="glossary-link" data-term="outlier" data-slug="outlier" data-original-href="#glossary-outlier">outlier</a>, <a href="#glossary-interquartile-range" class="glossary-link" data-term="interquartile range" data-slug="interquartile-range" data-original-href="#glossary-interquartile-range">interquartile range</a></p>
 <hr>
 </section>
 <section id="glossary-five-number-summary" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-five-number-summary">five-number summary</h3>
 <p>Five numbers that describe a data set: the minimum, Q1, the median, Q3, and the maximum.</p>
-<p><strong>See Also:</strong> <a href="#glossary-box-plot" class="glossary-link" data-original-href="#glossary-box-plot" data-slug="box-plot" data-term="box plot">box plot</a>, <a href="#glossary-quartile" class="glossary-link" data-original-href="#glossary-quartile" data-slug="quartile" data-term="quartile">quartile</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-box-plot" class="glossary-link" data-term="box plot" data-slug="box-plot" data-original-href="#glossary-box-plot">box plot</a>, <a href="#glossary-quartile" class="glossary-link" data-term="quartile" data-slug="quartile" data-original-href="#glossary-quartile">quartile</a></p>
 <hr>
 </section>
 <section id="glossary-frequency" class="level3">
@@ -351,26 +427,26 @@ window.Quarto = {
 <section id="glossary-frequency-table" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-frequency-table">frequency table</h3>
 <p>A table that lists each value and its frequency.</p>
-<p><strong>See Also:</strong> <a href="#glossary-frequency" class="glossary-link" data-original-href="#glossary-frequency" data-slug="frequency" data-term="frequency">frequency</a>, <a href="#glossary-tally" class="glossary-link" data-original-href="#glossary-tally" data-slug="tally" data-term="tally">tally</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-frequency" class="glossary-link" data-term="frequency" data-slug="frequency" data-original-href="#glossary-frequency">frequency</a>, <a href="#glossary-tally" class="glossary-link" data-term="tally" data-slug="tally" data-original-href="#glossary-tally">tally</a></p>
 <hr>
 </section>
 <section id="glossary-histogram" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-histogram">histogram</h3>
 <p>A bar graph for number data. The values are put in groups called bins. The bars touch, and the height of each bar is how many values are in that bin.</p>
-<p><strong>See Also:</strong> <a href="#glossary-bin" class="glossary-link" data-original-href="#glossary-bin" data-slug="bin" data-term="bin">bin</a>, <a href="#glossary-dot-plot" class="glossary-link" data-original-href="#glossary-dot-plot" data-slug="dot-plot" data-term="dot plot">dot plot</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-bin" class="glossary-link" data-term="bin" data-slug="bin" data-original-href="#glossary-bin">bin</a>, <a href="#glossary-dot-plot" class="glossary-link" data-term="dot plot" data-slug="dot-plot" data-original-href="#glossary-dot-plot">dot plot</a></p>
 <hr>
 </section>
 <section id="glossary-interquartile-range" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-interquartile-range">interquartile range</h3>
 <p>The distance from Q1 to Q3. It shows how spread out the middle half of the data is. Also called the <strong>IQR</strong>.</p>
 <p><span class="math display">\[\text{IQR} = Q_3 - Q_1\]</span></p>
-<p><strong>See Also:</strong> <a href="#glossary-quartile" class="glossary-link" data-original-href="#glossary-quartile" data-slug="quartile" data-term="quartile">quartile</a>, <a href="#glossary-range" class="glossary-link" data-original-href="#glossary-range" data-slug="range" data-term="range">range</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-quartile" class="glossary-link" data-term="quartile" data-slug="quartile" data-original-href="#glossary-quartile">quartile</a>, <a href="#glossary-range" class="glossary-link" data-term="range" data-slug="range" data-original-href="#glossary-range">range</a></p>
 <hr>
 </section>
 <section id="glossary-iqr" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-iqr">IQR</h3>
 <p>Short for interquartile range: <span class="math inline">\(Q_3 - Q_1\)</span>. It shows how spread out the middle half of the data is.</p>
-<p><strong>See Also:</strong> <a href="#glossary-interquartile-range" class="glossary-link" data-original-href="#glossary-interquartile-range" data-slug="interquartile-range" data-term="interquartile range">interquartile range</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-interquartile-range" class="glossary-link" data-term="interquartile range" data-slug="interquartile-range" data-original-href="#glossary-interquartile-range">interquartile range</a></p>
 <hr>
 </section>
 <section id="glossary-maximum" class="level3">
@@ -385,7 +461,7 @@ window.Quarto = {
 <p><strong>Example:</strong></p>
 <p>The mean of 2, 3, 8, 3, 4 is <span class="math inline">\(20 \div 5 = 4\)</span>.</p>
 </blockquote>
-<p><strong>See Also:</strong> <a href="#glossary-median" class="glossary-link" data-original-href="#glossary-median" data-slug="median" data-term="median">median</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-median" class="glossary-link" data-term="median" data-slug="median" data-original-href="#glossary-median">median</a></p>
 <hr>
 </section>
 <section id="glossary-median" class="level3">
@@ -395,7 +471,7 @@ window.Quarto = {
 <p><strong>Example:</strong></p>
 <p>The median of 2, 3, 3, 4, 8 is 3.</p>
 </blockquote>
-<p><strong>See Also:</strong> <a href="#glossary-mean" class="glossary-link" data-original-href="#glossary-mean" data-slug="mean" data-term="mean">mean</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-mean" class="glossary-link" data-term="mean" data-slug="mean" data-original-href="#glossary-mean">mean</a></p>
 <hr>
 </section>
 <section id="glossary-minimum" class="level3">
@@ -408,34 +484,66 @@ window.Quarto = {
 <p>The value that happens most often in a data set.</p>
 <hr>
 </section>
+<section id="glossary-normal-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-normal-distribution">normal distribution</h3>
+<p>A bell-shaped, symmetric distribution. Its mean and median are equal and sit in the center. It is described by its mean and its standard deviation.</p>
+<p><strong>See Also:</strong> <a href="#glossary-empirical-rule" class="glossary-link" data-term="empirical rule" data-slug="empirical-rule" data-original-href="#glossary-empirical-rule">empirical rule</a>, <a href="#glossary-z-score" class="glossary-link" data-term="z-score" data-slug="z-score" data-original-href="#glossary-z-score">z-score</a></p>
+<hr>
+</section>
 <section id="glossary-outlier" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-outlier">outlier</h3>
 <p>A value that is far away from the rest of the data. A common rule: a value is an outlier if it is more than <span class="math inline">\(1.5 \times \text{IQR}\)</span> below Q1 or above Q3.</p>
-<p><strong>See Also:</strong> <a href="#glossary-fence" class="glossary-link" data-original-href="#glossary-fence" data-slug="fence" data-term="fence">fence</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-fence" class="glossary-link" data-term="fence" data-slug="fence" data-original-href="#glossary-fence">fence</a></p>
+<hr>
+</section>
+<section id="glossary-percentile" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-percentile">percentile</h3>
+<p>The percent of the data that is below a value.</p>
+<blockquote class="blockquote">
+<p><strong>Example:</strong></p>
+<p>A score at the 75th percentile is higher than 75% of the scores.</p>
+</blockquote>
+<p><strong>See Also:</strong> <a href="#glossary-z-score" class="glossary-link" data-term="z-score" data-slug="z-score" data-original-href="#glossary-z-score">z-score</a>, <a href="#glossary-quartile" class="glossary-link" data-term="quartile" data-slug="quartile" data-original-href="#glossary-quartile">quartile</a></p>
+<hr>
+</section>
+<section id="glossary-population" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-population">population</h3>
+<p>The whole group we want to learn about.</p>
+<blockquote class="blockquote">
+<p><strong>Example:</strong></p>
+<p>All students at a school. A sample might be 50 of those students.</p>
+</blockquote>
+<p><strong>See Also:</strong> <a href="#glossary-sample" class="glossary-link" data-term="sample" data-slug="sample" data-original-href="#glossary-sample">sample</a></p>
 <hr>
 </section>
 <section id="glossary-quartile" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-quartile">quartile</h3>
 <p>The three values that cut ordered data into four parts with the same number of values. Q1 is the median of the lower half. The median is Q2. Q3 is the median of the upper half.</p>
-<p><strong>See Also:</strong> <a href="#glossary-five-number-summary" class="glossary-link" data-original-href="#glossary-five-number-summary" data-slug="five-number-summary" data-term="five-number summary">five-number summary</a>, <a href="#glossary-interquartile-range" class="glossary-link" data-original-href="#glossary-interquartile-range" data-slug="interquartile-range" data-term="interquartile range">interquartile range</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-five-number-summary" class="glossary-link" data-term="five-number summary" data-slug="five-number-summary" data-original-href="#glossary-five-number-summary">five-number summary</a>, <a href="#glossary-interquartile-range" class="glossary-link" data-term="interquartile range" data-slug="interquartile-range" data-original-href="#glossary-interquartile-range">interquartile range</a></p>
 <hr>
 </section>
 <section id="glossary-range" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-range">range</h3>
 <p>The maximum minus the minimum. It shows how spread out all the data is.</p>
-<p><strong>See Also:</strong> <a href="#glossary-interquartile-range" class="glossary-link" data-original-href="#glossary-interquartile-range" data-slug="interquartile-range" data-term="interquartile range">interquartile range</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-interquartile-range" class="glossary-link" data-term="interquartile range" data-slug="interquartile-range" data-original-href="#glossary-interquartile-range">interquartile range</a></p>
+<hr>
+</section>
+<section id="glossary-sample" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-sample">sample</h3>
+<p>A part of a group that we collect data from. We use the sample to learn about the whole group (the population).</p>
+<p><strong>See Also:</strong> <a href="#glossary-population" class="glossary-link" data-term="population" data-slug="population" data-original-href="#glossary-population">population</a></p>
 <hr>
 </section>
 <section id="glossary-shape" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-shape">shape</h3>
 <p>What a graph of the data looks like: symmetric, skewed left, or skewed right.</p>
-<p><strong>See Also:</strong> <a href="#glossary-symmetric" class="glossary-link" data-original-href="#glossary-symmetric" data-slug="symmetric" data-term="symmetric">symmetric</a>, <a href="#glossary-skewed-left" class="glossary-link" data-original-href="#glossary-skewed-left" data-slug="skewed-left" data-term="skewed left">skewed left</a>, <a href="#glossary-skewed-right" class="glossary-link" data-original-href="#glossary-skewed-right" data-slug="skewed-right" data-term="skewed right">skewed right</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-symmetric" class="glossary-link" data-term="symmetric" data-slug="symmetric" data-original-href="#glossary-symmetric">symmetric</a>, <a href="#glossary-skewed-left" class="glossary-link" data-term="skewed left" data-slug="skewed-left" data-original-href="#glossary-skewed-left">skewed left</a>, <a href="#glossary-skewed-right" class="glossary-link" data-term="skewed right" data-slug="skewed-right" data-original-href="#glossary-skewed-right">skewed right</a></p>
 <hr>
 </section>
 <section id="glossary-skewed-left" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-skewed-left">skewed left</h3>
 <p>A shape where most values are high and a long tail stretches to the left. The mean is less than the median.</p>
-<p><strong>See Also:</strong> <a href="#glossary-skewed-right" class="glossary-link" data-original-href="#glossary-skewed-right" data-slug="skewed-right" data-term="skewed right">skewed right</a>, <a href="#glossary-tail" class="glossary-link" data-original-href="#glossary-tail" data-slug="tail" data-term="tail">tail</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-skewed-right" class="glossary-link" data-term="skewed right" data-slug="skewed-right" data-original-href="#glossary-skewed-right">skewed right</a>, <a href="#glossary-tail" class="glossary-link" data-term="tail" data-slug="tail" data-original-href="#glossary-tail">tail</a></p>
 <hr>
 </section>
 <section id="glossary-skewed-right" class="level3">
@@ -445,7 +553,20 @@ window.Quarto = {
 <p><strong>Example:</strong></p>
 <p>US household income is skewed right.</p>
 </blockquote>
-<p><strong>See Also:</strong> <a href="#glossary-skewed-left" class="glossary-link" data-original-href="#glossary-skewed-left" data-slug="skewed-left" data-term="skewed left">skewed left</a>, <a href="#glossary-tail" class="glossary-link" data-original-href="#glossary-tail" data-slug="tail" data-term="tail">tail</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-skewed-left" class="glossary-link" data-term="skewed left" data-slug="skewed-left" data-original-href="#glossary-skewed-left">skewed left</a>, <a href="#glossary-tail" class="glossary-link" data-term="tail" data-slug="tail" data-original-href="#glossary-tail">tail</a></p>
+<hr>
+</section>
+<section id="glossary-spread" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-spread">spread</h3>
+<p>How far apart the values in a data set are. The range, the IQR, and the standard deviation are measures of spread.</p>
+<p><strong>See Also:</strong> <a href="#glossary-range" class="glossary-link" data-term="range" data-slug="range" data-original-href="#glossary-range">range</a>, <a href="#glossary-interquartile-range" class="glossary-link" data-term="interquartile range" data-slug="interquartile-range" data-original-href="#glossary-interquartile-range">interquartile range</a>, <a href="#glossary-standard-deviation" class="glossary-link" data-term="standard deviation" data-slug="standard-deviation" data-original-href="#glossary-standard-deviation">standard deviation</a></p>
+<hr>
+</section>
+<section id="glossary-standard-deviation" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-standard-deviation">standard deviation</h3>
+<p>A number that tells how far the values in a data set usually are from the mean. A small standard deviation means the values are close to the mean. It is often written <span class="math inline">\(s\)</span> (for a sample) or SD.</p>
+<p><span class="math display">\[s = \sqrt{\frac{\text{sum of } (x - \bar{x})^2}{n - 1}}\]</span></p>
+<p><strong>See Also:</strong> <a href="#glossary-variance" class="glossary-link" data-term="variance" data-slug="variance" data-original-href="#glossary-variance">variance</a>, <a href="#glossary-mean" class="glossary-link" data-term="mean" data-slug="mean" data-original-href="#glossary-mean">mean</a></p>
 <hr>
 </section>
 <section id="glossary-symmetric" class="level3">
@@ -463,10 +584,29 @@ window.Quarto = {
 <p>A mark made for each data value as you count it.</p>
 <hr>
 </section>
+<section id="glossary-variance" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-variance">variance</h3>
+<p>The standard deviation squared. To find it, add the squared differences from the mean and divide by <span class="math inline">\(n - 1\)</span>.</p>
+<p><strong>See Also:</strong> <a href="#glossary-standard-deviation" class="glossary-link" data-term="standard deviation" data-slug="standard-deviation" data-original-href="#glossary-standard-deviation">standard deviation</a></p>
+<hr>
+</section>
 <section id="glossary-whisker" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-whisker">whisker</h3>
 <p>A line on a box plot that goes from the box out to the smallest or largest value that is not an outlier.</p>
-<p><strong>See Also:</strong> <a href="#glossary-box-plot" class="glossary-link" data-original-href="#glossary-box-plot" data-slug="box-plot" data-term="box plot">box plot</a></p>
+<p><strong>See Also:</strong> <a href="#glossary-box-plot" class="glossary-link" data-term="box plot" data-slug="box-plot" data-original-href="#glossary-box-plot">box plot</a></p>
+<hr>
+</section>
+<section id="glossary-z-score" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-z-score">z-score</h3>
+<p>How many standard deviations a value is above or below the mean. A positive z-score is above the mean. A negative z-score is below the mean.</p>
+<p><span class="math display">\[z = \frac{\text{value} - \text{mean}}{\text{SD}}\]</span></p>
+<p><strong>See Also:</strong> <a href="#glossary-standard-deviation" class="glossary-link" data-term="standard deviation" data-slug="standard-deviation" data-original-href="#glossary-standard-deviation">standard deviation</a>, <a href="#glossary-percentile" class="glossary-link" data-term="percentile" data-slug="percentile" data-original-href="#glossary-percentile">percentile</a></p>
+<hr>
+</section>
+<section id="glossary-z-table" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-z-table">z-table</h3>
+<p>A table that gives the area under the standard normal curve to the left of a z-score. That area is the proportion of the data below the z-score.</p>
+<p><strong>See Also:</strong> <a href="#glossary-z-score" class="glossary-link" data-term="z-score" data-slug="z-score" data-original-href="#glossary-z-score">z-score</a>, <a href="#glossary-normal-distribution" class="glossary-link" data-term="normal distribution" data-slug="normal-distribution" data-original-href="#glossary-normal-distribution">normal distribution</a></p>
 
 
 </section>
@@ -1161,8 +1301,8 @@ window.Quarto = {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./chapters/Unit_1/1.4_Reading_Box_Plots_and_Outliers.html" class="pagination-link" aria-label="1.4 - Reading Box Plots and Outliers">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">1.4 - Reading Box Plots and Outliers</span>
+      <a href="./chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html" class="pagination-link" aria-label="2.6 - Normal Calculations in Reverse">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">2.6 - Normal Calculations in Reverse</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

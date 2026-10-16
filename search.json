@@ -195,11 +195,242 @@
     ]
   },
   {
+    "objectID": "chapters/Unit_2/index.html",
+    "href": "chapters/Unit_2/index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "What You’ll Learn\nWelcome to Unit 2! In Unit 1, you showed data with graphs. Now you measure it.\nTwo classes can have the same average score. In one class, everyone is close to the average. In the other, scores are all over the place. This unit gives you numbers for that difference.\nBy the end of this unit, you will be able to:\nThis unit matches Unit 2: Analyzing a single quantitative variable in Khan Academy’s Statistics essentials.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/index.html#what-youll-learn",
+    "href": "chapters/Unit_2/index.html#what-youll-learn",
+    "title": "Introduction",
+    "section": "",
+    "text": "Find and explain the standard deviation\nChoose the best measures of center and spread\nCompare two distributions\nFind percentiles and z-scores\nUse the empirical rule for normal distributions\nUse a z-table to find areas and values in a normal distribution",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/index.html#topics-in-this-unit",
+    "href": "chapters/Unit_2/index.html#topics-in-this-unit",
+    "title": "Introduction",
+    "section": "Topics in This Unit",
+    "text": "Topics in This Unit\nStandard Deviation Measure how far the values usually are from the mean.\nChoosing Measures & Comparing Distributions\nPick mean and SD or median and IQR. Compare two groups.\nPercentiles & Z-Scores\nTell where one value stands in a data set.\nNormal Distributions & the Empirical Rule\nUse the 68-95-99.7 rule on a bell-shaped curve.\nNormal Calculations with a Z-Table\nFind the percent of data above, below, or between values.\nNormal Calculations in Reverse\nFind the value that matches a percentile.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.1_Standard_Deviation.html",
+    "href": "chapters/Unit_2/2.1_Standard_Deviation.html",
+    "title": "2.1 - Standard Deviation",
+    "section": "",
+    "text": "👥 Learn Together\nTwo basketball players both score 10 points per game on average.\nPlayer A scores close to 10 every game. Player B might score 2 or 18. The mean is the same, but the players are very different.\nIn this lesson, you learn the standard deviation, a number that measures this spread.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.1 - Standard Deviation"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.1_Standard_Deviation.html#learn",
+    "href": "chapters/Unit_2/2.1_Standard_Deviation.html#learn",
+    "title": "2.1 - Standard Deviation",
+    "section": "",
+    "text": "2.1.1 - What the SD Tells You\nThe standard deviation (SD) is about how far the values usually are from the mean.\n\nSmall SD: the values are close to the mean.\nLarge SD: the values are spread out.\n\nPlayer A has a small SD. Player B has a large SD.\n\n\n\n2.1.2 - Finding the Standard Deviation\nExample: 7, 7, 10, 13, 13\n\n\n\nStep\nWork\n\n\n\n\n1. Find the mean, \\(\\bar{x}\\).\n\\(\\bar{x} = 50 \\div 5 = 10\\)\n\n\n2. Subtract the mean from each value.\nSee the table below.\n\n\n3. Square each result.\nSee the table below.\n\n\n4. Add the squares.\n\\(9 + 9 + 0 + 9 + 9 = 36\\)\n\n\n5. Divide by \\(n - 1\\). This is the variance.\n\\(36 \\div 4 = 9\\)\n\n\n6. Take the square root.\n\\(s = \\sqrt{9} = 3\\)\n\n\n\n\n\n\n\\(x\\)\n\\(x - \\bar{x}\\)\n\\((x - \\bar{x})^2\\)\n\n\n\n\n7\n\\(-3\\)\n9\n\n\n7\n\\(-3\\)\n9\n\n\n10\n0\n0\n\n\n13\n3\n9\n\n\n13\n3\n9\n\n\n\nSum\n36\n\n\n\nThe standard deviation is \\(s = 3\\).\n\n\\[\ns = \\sqrt{\\frac{\\text{sum of } (x - \\bar{x})^2}{n - 1}}\n\\]\n\\(n\\) is how many values there are.\n\n\nOur data is usually a sample, a small part of a bigger group.\nA sample is usually a little less spread out than the whole group. Dividing by \\(n - 1\\) makes \\(s\\) a little bigger. This fixes the problem.\n\n\nMean: \\(12 \\div 3 = 4\\).\nDifferences: \\(-2, 0, 2\\). Squares: \\(4, 0, 4\\). Sum: 8.\n\\(s = \\sqrt{8 \\div 2} = \\sqrt{4} = 2\\)\n\n\n\n\n2.1.3 - Facts About the SD\n\n\nThe SD is never negative.\nThe SD is 0 only when every value is the same.\nThe SD has the same units as the data (points, minutes, inches).",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.1 - Standard Deviation"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.1_Standard_Deviation.html#practice",
+    "href": "chapters/Unit_2/2.1_Standard_Deviation.html#practice",
+    "title": "2.1 - Standard Deviation",
+    "section": "✍️ Practice On Your Own",
+    "text": "✍️ Practice On Your Own\nWork with a partner. Compare answers when you finish each problem.\nFinding the SD\n\nFind the standard deviation of 4, 6, 8, 10, 12.\nFour quiz scores: 7, 3, 7, 7. Find the standard deviation.\nLook at the two players at the top of this page.\nPlayer A: 9, 10, 10, 11, 10\nPlayer B: 2, 18, 5, 15, 10\n\nFind the mean of each player.\nWithout calculating, which player has the larger SD? Explain.\nFind \\(s\\) for Player A.\nPlayer B’s SD is about 6.67. A coach needs a player who scores close to 10 points every game. Which player should the coach choose? Explain.\n\n\n\nSeeing the SD\n\nAll three dot plots have a mean of 5. Put them in order from the smallest SD to the largest SD. Explain.\n\nThink about what the SD means.\n\nCan a standard deviation be negative? Explain.\nFind the SD of 10, 10, 10, 10 without a formula. Explain.\nSet B is 9, 10, 10, 11. Set C is 0, 10, 10, 20. Both have a mean of 10. Which set has the larger SD? Explain.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.1 - Standard Deviation"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.2_Choosing_Measures_and_Comparing_Distributions.html",
+    "href": "chapters/Unit_2/2.2_Choosing_Measures_and_Comparing_Distributions.html",
+    "title": "2.2 - Choosing Measures and Comparing Distributions",
+    "section": "",
+    "text": "👥 Learn Together\nHere are six numbers: 2, 3, 3, 4, 5, 40.\nThe mean is 9.5. The median is 3.5. Five of the six values are 5 or less. Which number tells the truth about a typical value?\nIn this lesson, you choose the best measures of center and spread. Then you use them to compare two groups.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.2 - Choosing Measures and Comparing Distributions"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.2_Choosing_Measures_and_Comparing_Distributions.html#learn",
+    "href": "chapters/Unit_2/2.2_Choosing_Measures_and_Comparing_Distributions.html#learn",
+    "title": "2.2 - Choosing Measures and Comparing Distributions",
+    "section": "",
+    "text": "2.2.1 - Which Measures to Use\n\n\n\n\nShape of the data\nCenter\nSpread\n\n\n\n\nSymmetric, no outliers\nmean\nstandard deviation\n\n\nSkewed, or has outliers\nmedian\nIQR\n\n\n\n\nAn outlier pulls the mean and the SD. It does not pull the median and the IQR much.\nExample: 2, 3, 3, 4, 5, 40\n\n\n\n\nMean\nSD\nMedian\nIQR\n\n\n\n\nWith 40\n9.5\n15.0\n3.5\n2\n\n\nWithout 40\n3.4\n1.1\n3\n2\n\n\n\nOne value moved the mean by 6.1 and the SD by about 14. The median moved 0.5. The IQR did not move.\n\nThe SD of 2, 3, 3, 4, 5, 40 is 15. That does not mean all the values are spread out. Five of them are packed from 2 to 5. One outlier makes the SD large.\n\n\n\n\n2.2.2 - Comparing Two Distributions\nWhen you compare two groups, talk about all four of these. Use numbers and the context.\n\n\n\n\nAsk\n\n\n\n\nShape\nSymmetric or skewed?\n\n\nCenter\nWhich group is higher? (median or mean)\n\n\nSpread\nWhich group is more spread out? (IQR or SD)\n\n\nOutliers\nAny values far from the rest?\n\n\n\nExample: How many hours did students sleep last night?\n\n\n\n\n\n\n\n\n\n\n\n\n\nComparison\n\n\n\n\nShape\n9th grade is symmetric. 12th grade is skewed right.\n\n\nCenter\nThe median for 9th grade (8 hours) is greater than for 12th grade (6 hours). 9th graders usually sleep about 2 hours more.\n\n\nSpread\nBoth groups have an IQR of 2 hours. The spreads are about the same.\n\n\nOutliers\nOne 12th grader slept 12 hours. That is an outlier (the upper fence is 10).\n\n\n\n12th grade has an outlier, so we compare with the median and the IQR.\n\n“9th grade has a median of 8. 12th grade has a median of 6.” This lists two facts. It does not compare.\n“The median for 9th grade is 2 hours greater than for 12th grade.” This compares.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.2 - Choosing Measures and Comparing Distributions"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.2_Choosing_Measures_and_Comparing_Distributions.html#practice",
+    "href": "chapters/Unit_2/2.2_Choosing_Measures_and_Comparing_Distributions.html#practice",
+    "title": "2.2 - Choosing Measures and Comparing Distributions",
+    "section": "✍️ Practice On Your Own",
+    "text": "✍️ Practice On Your Own\nWork with a partner. Compare answers when you finish each problem.\nChoosing Measures\n\nFor each data set, should you use the mean and SD or the median and IQR? Explain.\n\nThe heights of 200 adult women. The histogram is symmetric.\nThe price of every house sold in a city. The histogram is skewed right.\nQuiz scores: 7, 8, 8, 9, 9, 10, 2\n\nLook at the example above: 2, 3, 3, 4, 5, 40.\n\nWhich pair describes a typical value better: mean 9.5 and SD 15.0, or median 3.5 and IQR 2? Explain.\nA student says, “The SD is 15, so the values are very spread out.” Is that a fair description? Explain.\n\n\n\nComparing Distributions\n\nThese dot plots show how many books students in two classes read this summer.\n\n\nDescribe the shape of each class.\nClass A has median 3 and IQR 2. Class B has median 1 and IQR 2. Compare the centers.\nCompare the spreads.\nDoes either class have an outlier? Explain.\n\nThese box plots show test scores in two class periods.\n\n\nCompare the centers. Use numbers.\nCompare the spreads. Use numbers.\nWhich period’s scores are more consistent? Explain.\n\nTwo soccer teams measured the heights of their players. Both histograms are symmetric.\n\n\n\n\nMean\nSD\n\n\n\n\nTeam X\n70 inches\n2 inches\n\n\nTeam Y\n72 inches\n5 inches\n\n\n\n\nWhich team is taller on average?\nWhich team has heights that are more spread out?\nWrite one sentence that compares the two teams. Use both the center and the spread.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.2 - Choosing Measures and Comparing Distributions"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.3_Percentiles_and_Z-Scores.html",
+    "href": "chapters/Unit_2/2.3_Percentiles_and_Z-Scores.html",
+    "title": "2.3 - Percentiles and Z-Scores",
+    "section": "",
+    "text": "👥 Learn Together\nYou scored 85 on a test. Is that good?\nIf everyone else scored 95, it is not so good. If everyone else scored 60, it is great. A score only has meaning when you compare it to the rest of the data.\nIn this lesson, you use percentiles and z-scores to tell where one value stands.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.3 - Percentiles and Z-Scores"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.3_Percentiles_and_Z-Scores.html#learn",
+    "href": "chapters/Unit_2/2.3_Percentiles_and_Z-Scores.html#learn",
+    "title": "2.3 - Percentiles and Z-Scores",
+    "section": "",
+    "text": "2.3.1 - Percentiles\n\nThe percentile of a value is the percent of the data that is below it.\n\\[\n\\text{percentile} = \\frac{\\text{number of values below}}{\\text{total number of values}} \\times 100\n\\]\n\nExample: 20 students took a test. 15 students scored below 85.\n\\[\n15 \\div 20 = 0.75\n\\]\nA score of 85 is at the 75th percentile. It is higher than 75% of the class.\n\nScoring at the 75th percentile does not mean you got 75% of the questions right. It means you scored higher than 75% of the people.\n\n\n\n\n2.3.2 - Z-Scores\n\nA z-score tells how many standard deviations a value is above or below the mean.\n\\[\nz = \\frac{\\text{value} - \\text{mean}}{\\text{SD}}\n\\]\n\n\\(z &gt; 0\\): above the mean\n\\(z &lt; 0\\): below the mean\n\\(z = 0\\): equal to the mean\n\n\nExample: A test has a mean of 70 and an SD of 10. What is the z-score of 85?\n\\[\nz = \\frac{85 - 70}{10} = \\frac{15}{10} = 1.5\n\\]\n85 is 1.5 standard deviations above the mean.\n\n\n\n\n\n\n\\[\nz = \\frac{55 - 70}{10} = \\frac{-15}{10} = -1.5\n\\]\n55 is 1.5 standard deviations below the mean.\n\n\n\n\n2.3.3 - Comparing with Z-Scores\nZ-scores let you compare values from different data sets.\n\n\n\n\nScore\nMean\nSD\n\\(z\\)\n\n\n\n\nAna, math test\n85\n70\n10\n\\(\\frac{85 - 70}{10} = 1.5\\)\n\n\nBen, history test\n80\n74\n3\n\\(\\frac{80 - 74}{3} = 2\\)\n\n\n\nAna’s score is higher. But Ben did better compared to his class, because his z-score is larger.\n\n\n\n2.3.4 - Going Backward\nIf you know the z-score, you can find the value.\n\\[\n\\text{value} = \\text{mean} + z \\times \\text{SD}\n\\]\nExample: On Ana’s test, what score has \\(z = -2\\)?\n\\[\n70 + (-2)(10) = 70 - 20 = 50\n\\]",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.3 - Percentiles and Z-Scores"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.3_Percentiles_and_Z-Scores.html#practice",
+    "href": "chapters/Unit_2/2.3_Percentiles_and_Z-Scores.html#practice",
+    "title": "2.3 - Percentiles and Z-Scores",
+    "section": "✍️ Practice On Your Own",
+    "text": "✍️ Practice On Your Own\nWork with a partner. Compare answers when you finish each problem.\nPercentiles\n\nHere are the quiz scores of 20 students, in order.\n52, 58, 61, 64, 66, 68, 70, 71, 73, 75, 76, 78, 80, 81, 83, 85, 88, 90, 94, 98\n\nWhat percentile is a score of 83?\nWhat percentile is a score of 61?\nWhich score is at the 50th percentile?\n\nThis dot plot shows how many hours 25 students spent on homework last week.\n\n\nWhat percentile is 7 hours?\nWhat percentile is 4 hours?\n\n\n\nZ-Scores\n\nA class took a quiz. The mean is 20 points and the SD is 4 points. Find the z-score of each score. Then say what it means.\n\n26\n14\n20\n30\n\nLin took two tests.\n\n\n\nTest\nLin’s score\nClass mean\nClass SD\n\n\n\n\nSpanish\n88\n80\n4\n\n\nScience\n90\n84\n6\n\n\n\n\nFind Lin’s z-score on each test.\nLin’s science score is higher. On which test did Lin do better compared to the class? Explain.\n\nA test has a mean of 70 and an SD of 8.\n\nWhat score has a z-score of 2?\nWhat score has a z-score of \\(-0.5\\)?\n\nIn a 100-meter race, a lower time is better. The team’s mean time is 14.0 seconds, with an SD of 0.5 seconds.\n\nMaria ran 13.0 seconds. Find her z-score.\nIs a negative z-score good or bad for Maria? Explain.\n\nA student says, “A z-score of \\(-1\\) means the value is 1 less than the mean.” Is the student right? Explain.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.3 - Percentiles and Z-Scores"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.4_Normal_Distributions_and_the_Empirical_Rule.html",
+    "href": "chapters/Unit_2/2.4_Normal_Distributions_and_the_Empirical_Rule.html",
+    "title": "2.4 - Normal Distributions and the Empirical Rule",
+    "section": "",
+    "text": "👥 Learn Together\nMeasure the heights of thousands of adult women. Most are close to 64 inches. Fewer are very short or very tall. The histogram makes a smooth bell shape.\nData with this shape has a normal distribution. In this lesson, you use one simple rule to find percents in any normal distribution.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.4 - Normal Distributions and the Empirical Rule"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.4_Normal_Distributions_and_the_Empirical_Rule.html#learn",
+    "href": "chapters/Unit_2/2.4_Normal_Distributions_and_the_Empirical_Rule.html#learn",
+    "title": "2.4 - Normal Distributions and the Empirical Rule",
+    "section": "",
+    "text": "2.4.1 - Normal Distributions\n\n\nis bell-shaped and symmetric\nhas the mean and the median in the center (they are equal)\nis described by two numbers: the mean (center) and the SD (spread)\n\n\nA larger SD makes the curve wider and flatter. A different mean moves the curve left or right.\n\n\n\n2.4.2 - The Empirical Rule\n\n\n\n\n\n\n\nAbout 68% of the data is within 1 SD of the mean.\nAbout 95% of the data is within 2 SDs of the mean.\nAbout 99.7% of the data is within 3 SDs of the mean.\n\n\nExample: Heights of adult women have a mean of about 64 inches and an SD of about 3 inches.\n\n\n\nQuestion\nAnswer\n\n\n\n\nPercent from 61 to 67 inches\n68% (within 1 SD)\n\n\nPercent from 58 to 70 inches\n95% (within 2 SDs)\n\n\nPercent taller than 67 inches\n\\(13.5\\% + 2.35\\% + 0.15\\% = 16\\%\\)\n\n\nPercentile of 67 inches\n\\(100\\% - 16\\% = 84\\%\\), the 84th percentile\n\n\n\n\nDraw the curve and label the mean and the SDs every time. Then shade the part the question asks about and add up the pieces.\n\n\n58 is 2 SDs below the mean. The parts below it are \\(2.35\\% + 0.15\\% = 2.5\\%\\).",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.4 - Normal Distributions and the Empirical Rule"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.4_Normal_Distributions_and_the_Empirical_Rule.html#practice",
+    "href": "chapters/Unit_2/2.4_Normal_Distributions_and_the_Empirical_Rule.html#practice",
+    "title": "2.4 - Normal Distributions and the Empirical Rule",
+    "section": "✍️ Practice On Your Own",
+    "text": "✍️ Practice On Your Own\nWork with a partner. Compare answers when you finish each problem.\nUsing the Empirical Rule\n\nThe weights of apples from one orchard have a normal distribution. The mean is 150 grams and the SD is 10 grams. Draw the curve and label it with the weights. About what percent of the apples weigh:\n\nfrom 140 to 160 grams?\nfrom 130 to 170 grams?\nmore than 160 grams?\nless than 130 grams?\nfrom 150 to 170 grams?\nfrom 130 to 160 grams?\n\nA phone battery lasts a mean of 20 hours with an SD of 2 hours. The times have a normal distribution.\n\nBetween what two times do the middle 95% of batteries last?\nWhat percentile is 22 hours?\nAbout what percent of batteries last less than 16 hours?\nA battery lasts 27 hours. Is that unusual? Explain.\n\nIn a normal distribution, what percentile is a value with each z-score?\n\n\\(z = 0\\)\n\\(z = 1\\)\n\\(z = -2\\)\n\\(z = 2\\)\n\n\n\nComparing Normal Curves\n\nThe three curves are normal distributions.\n\n\nWhich two curves have the same mean?\nWhich curve has the largest SD? Explain.\nHow are A and C the same? How are they different?\n\nWould each data set have a normal distribution? Explain.\n\nThe heights of all adult men in Missouri.\nThe yearly income of every household in the US.\nScores on a very easy test.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.4 - Normal Distributions and the Empirical Rule"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.5_Normal_Calculations_with_a_Z-Table.html",
+    "href": "chapters/Unit_2/2.5_Normal_Calculations_with_a_Z-Table.html",
+    "title": "2.5 - Normal Calculations with a Z-Table",
+    "section": "",
+    "text": "👥 Learn Together\nAdult women have a mean height of 64 inches and an SD of 3 inches. What percent are shorter than 68 inches?\n68 is not 1, 2, or 3 SDs from the mean. The empirical rule cannot answer this. A z-table can.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.5 - Normal Calculations with a Z-Table"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.5_Normal_Calculations_with_a_Z-Table.html#learn",
+    "href": "chapters/Unit_2/2.5_Normal_Calculations_with_a_Z-Table.html#learn",
+    "title": "2.5 - Normal Calculations with a Z-Table",
+    "section": "",
+    "text": "2.5.1 - Reading the Z-Table\n\nThe z-table gives the area to the left of \\(z\\). That is the proportion of the data below \\(z\\).\n\nExample: Find the area below \\(z = 1.33\\).\n\nGo down to the row 1.3.\nGo across to the column .03.\nThe area is .9082. About 90.82% of the data is below \\(z = 1.33\\).\n\n\n\n\n2.5.2 - Below, Above, and Between\n\n\n\n\n\n\n\nDraw the curve. Shade the part the question asks about.\nFind each z-score: \\(z = \\dfrac{\\text{value} - \\text{mean}}{\\text{SD}}\\). Round to 2 decimal places.\nLook up each z-score in the table.\nBelow: use the table. Above: \\(1 -\\) table. Between: subtract the two table values.\n\n\nExample: Heights of adult women: mean 64 inches, SD 3 inches.\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestion\nWork\nAnswer\n\n\n\n\nShorter than 68 inches\n\\(z = \\frac{68 - 64}{3} = 1.33\\), table: .9082\n90.82%\n\n\nTaller than 68 inches\n\\(1 - .9082 = .0918\\)\n9.18%\n\n\nFrom 62 to 68 inches\n\\(z = \\frac{62 - 64}{3} = -0.67\\), table: .2514. Then \\(.9082 - .2514 = .6568\\)\n65.68%\n\n\n\n\nThe table always gives the area below. For “more than” or “taller than”, subtract the table value from 1.\n\n\n\\(z = \\frac{61 - 64}{3} = -1\\). The table gives .1587.\n\\(1 - .1587 = .8413\\). About 84.13% are taller than 61 inches.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.5 - Normal Calculations with a Z-Table"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.5_Normal_Calculations_with_a_Z-Table.html#practice",
+    "href": "chapters/Unit_2/2.5_Normal_Calculations_with_a_Z-Table.html#practice",
+    "title": "2.5 - Normal Calculations with a Z-Table",
+    "section": "✍️ Practice On Your Own",
+    "text": "✍️ Practice On Your Own\nWork with a partner. Use the z-table. Compare answers when you finish each problem.\nReading the Table\n\nFind the area below each z-score.\n\n\\(z = 1.25\\)\n\\(z = -0.84\\)\n\\(z = 2.00\\)\n\\(z = -1.96\\)\n\nFind the area above each z-score.\n\n\\(z = 0.50\\)\n\\(z = -1.20\\)\n\nFind the area between the two z-scores.\n\n\\(z = -1\\) and \\(z = 1\\)\n\\(z = 0.5\\) and \\(z = 1.5\\)\n\nThe empirical rule says about 68% of the data is within 1 SD of the mean. Your answer to 3(a) is .6826. Do these agree? Explain.\n\n\nIn Context\n\nCommute times to a school have a normal distribution with a mean of 25 minutes and an SD of 5 minutes. What percent of students have a commute:\n\nless than 30 minutes?\nmore than 33 minutes?\nfrom 20 to 28 minutes?\n\nApples from an orchard have a mean weight of 150 grams and an SD of 10 grams. The weights have a normal distribution.\n\nThe store sells apples over 165 grams as “extra large.” What percent of apples are extra large?\nApples under 138 grams are used for juice. What percent go to juice?",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.5 - Normal Calculations with a Z-Table"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html",
+    "href": "chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html",
+    "title": "2.6 - Normal Calculations in Reverse",
+    "section": "",
+    "text": "👥 Learn Together\nA company wants to replace the worst 10% of its batteries. A store wants to sell the heaviest 15% of its apples as “premium.” Where should they draw the line?\nIn 2.5, you knew the value and found the percent. In this lesson, you know the percent and find the value.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.6 - Normal Calculations in Reverse"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html#learn",
+    "href": "chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html#learn",
+    "title": "2.6 - Normal Calculations in Reverse",
+    "section": "",
+    "text": "2.6.1 - From a Percent to a Value\nExample: Heights of adult women: mean 64 inches, SD 3 inches. How tall is a woman at the 90th percentile?\n\n\n\n\n\n\n\n\n\n\n\n\nStep\nExample: 90th percentile\n\n\n\n\n1. Draw the curve. Shade the area to the left.\n90% is to the left. The area is .9000.\n\n\n2. Look inside the table for the area closest to it.\nThe closest area is .8997.\n\n\n3. Read the z-score from the row and the column.\nRow 1.2, column .08: \\(z = 1.28\\)\n\n\n4. Find the value: value \\(=\\) mean \\(+\\; z \\times \\text{SD}\\)\n\\(64 + 1.28 \\times 3 = 67.84\\)\n\n\n\nA woman at the 90th percentile is about 67.8 inches tall.\n\n\n\n2.6.2 - Top and Bottom\n\n\n\nQuestion\nArea to the left\n\n\n\n\nThe bottom 10%\n.10\n\n\nThe top 10%\n\\(1 - .10 = .90\\)\n\n\n\nExample: Below what height are the shortest 10% of women?\nThe area is .1000. The closest area in the table is .1003, at \\(z = -1.28\\).\n\\[\n64 + (-1.28)(3) = 64 - 3.84 = 60.16\n\\]\nThe shortest 10% are below about 60.2 inches.\n\nThe table gives areas to the left. For a “top” question, subtract from 1 before you look in the table.\n\n\nArea .7500. The closest area is .7486, at \\(z = 0.67\\).\n\\(64 + 0.67 \\times 3 = 64 + 2.01 = 66.01\\). About 66 inches.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.6 - Normal Calculations in Reverse"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html#practice",
+    "href": "chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html#practice",
+    "title": "2.6 - Normal Calculations in Reverse",
+    "section": "✍️ Practice On Your Own",
+    "text": "✍️ Practice On Your Own\nWork with a partner. Use the z-table. Compare answers when you finish each problem.\nFinding Z-Scores\n\nFind the z-score at each percentile.\n\n80th percentile\n30th percentile\n97.5th percentile\n25th percentile\n\n\n\nFinding Values\n\nA test has scores with a normal distribution. The mean is 500 and the SD is 100.\n\nWhat score is at the 90th percentile?\nWhat score is at the 30th percentile?\n\nA phone battery lasts a mean of 20 hours with an SD of 2 hours. The times have a normal distribution. The company replaces any battery in the bottom 10%. Below what time does a battery get replaced?\nApples have a mean weight of 150 grams and an SD of 10 grams. The weights have a normal distribution. The heaviest 15% are sold as “premium.” How heavy must an apple be to be premium?\nUse the test from problem 2 (mean 500, SD 100). One question goes forward and one goes in reverse.\n\nWhat percentile is a score of 640?\nWhat score is at the 75th percentile?\n\nChallenge. The heights of a type of plant have a normal distribution with a mean of 30 cm. 97.5% of the plants are shorter than 39.8 cm. Find the SD.",
+    "crumbs": [
+      "Unit 2: Analyzing One Variable",
+      "2.6 - Normal Calculations in Reverse"
+    ]
+  },
+  {
     "objectID": "glossary.html",
     "href": "glossary.html",
     "title": "Glossary",
     "section": "",
-    "text": "bin\nOne group of values in a histogram. Each bar of a histogram is one bin.\n\nExample:\nThe bin “10 to 20” holds every value from 10 up to (but not including) 20.\n\nSee Also: histogram\n\n\n\nbox plot\nA graph that shows the five-number summary. A box goes from Q1 to Q3, with a line at the median. Lines called whiskers go out to the minimum and the maximum.\nSee Also: five-number summary, quartile\n\n\n\ndata\nFacts or numbers that we collect to learn about something.\n\nExample:\nThe number of pets each student in a class has.\n\n\n\n\ndistribution\nAll the values in a data set and how often each one happens. A graph of the data shows its distribution.\nSee Also: shape\n\n\n\ndot plot\nA graph that puts one dot above a number line for each data value. Dots for the same value stack up.\nSee Also: frequency table, histogram\n\n\n\nfence\nA cutoff for outliers. The lower fence is \\(Q_1 - 1.5 \\times \\text{IQR}\\). The upper fence is \\(Q_3 + 1.5 \\times \\text{IQR}\\). A value outside the fences is an outlier.\nSee Also: outlier, interquartile range\n\n\n\nfive-number summary\nFive numbers that describe a data set: the minimum, Q1, the median, Q3, and the maximum.\nSee Also: box plot, quartile\n\n\n\nfrequency\nHow many times a value happens in a data set.\n\nExample:\nIn the data 2, 3, 3, 5, the value 3 has a frequency of 2.\n\n\n\n\nfrequency table\nA table that lists each value and its frequency.\nSee Also: frequency, tally\n\n\n\nhistogram\nA bar graph for number data. The values are put in groups called bins. The bars touch, and the height of each bar is how many values are in that bin.\nSee Also: bin, dot plot\n\n\n\ninterquartile range\nThe distance from Q1 to Q3. It shows how spread out the middle half of the data is. Also called the IQR.\n\\[\\text{IQR} = Q_3 - Q_1\\]\nSee Also: quartile, range\n\n\n\nIQR\nShort for interquartile range: \\(Q_3 - Q_1\\). It shows how spread out the middle half of the data is.\nSee Also: interquartile range\n\n\n\nmaximum\nThe largest value in a data set.\n\n\n\nmean\nThe sum of all the values divided by how many values there are. Also called the average.\n\nExample:\nThe mean of 2, 3, 8, 3, 4 is \\(20 \\div 5 = 4\\).\n\nSee Also: median\n\n\n\nmedian\nThe middle value when the data is in order. With an even number of values, the median is halfway between the two middle values.\n\nExample:\nThe median of 2, 3, 3, 4, 8 is 3.\n\nSee Also: mean\n\n\n\nminimum\nThe smallest value in a data set.\n\n\n\nmode\nThe value that happens most often in a data set.\n\n\n\noutlier\nA value that is far away from the rest of the data. A common rule: a value is an outlier if it is more than \\(1.5 \\times \\text{IQR}\\) below Q1 or above Q3.\nSee Also: fence\n\n\n\nquartile\nThe three values that cut ordered data into four parts with the same number of values. Q1 is the median of the lower half. The median is Q2. Q3 is the median of the upper half.\nSee Also: five-number summary, interquartile range\n\n\n\nrange\nThe maximum minus the minimum. It shows how spread out all the data is.\nSee Also: interquartile range\n\n\n\nshape\nWhat a graph of the data looks like: symmetric, skewed left, or skewed right.\nSee Also: symmetric, skewed left, skewed right\n\n\n\nskewed left\nA shape where most values are high and a long tail stretches to the left. The mean is less than the median.\nSee Also: skewed right, tail\n\n\n\nskewed right\nA shape where most values are low and a long tail stretches to the right. The mean is greater than the median.\n\nExample:\nUS household income is skewed right.\n\nSee Also: skewed left, tail\n\n\n\nsymmetric\nA shape where the left side and the right side look about the same. The mean and the median are about equal.\n\n\n\ntail\nThe long, low side of a graph. The mean is pulled toward the tail.\n\n\n\ntally\nA mark made for each data value as you count it.\n\n\n\nwhisker\nA line on a box plot that goes from the box out to the smallest or largest value that is not an outlier.\nSee Also: box plot",
+    "text": "bin\nOne group of values in a histogram. Each bar of a histogram is one bin.\n\nExample:\nThe bin “10 to 20” holds every value from 10 up to (but not including) 20.\n\nSee Also: histogram\n\n\n\nbox plot\nA graph that shows the five-number summary. A box goes from Q1 to Q3, with a line at the median. Lines called whiskers go out to the minimum and the maximum.\nSee Also: five-number summary, quartile\n\n\n\ncenter\nA single number that describes a typical value in a data set. The mean and the median are measures of center.\nSee Also: mean, median, spread\n\n\n\ndata\nFacts or numbers that we collect to learn about something.\n\nExample:\nThe number of pets each student in a class has.\n\n\n\n\ndistribution\nAll the values in a data set and how often each one happens. A graph of the data shows its distribution.\nSee Also: shape\n\n\n\ndot plot\nA graph that puts one dot above a number line for each data value. Dots for the same value stack up.\nSee Also: frequency table, histogram\n\n\n\nempirical rule\nIn a normal distribution, about 68% of the data is within 1 standard deviation of the mean, about 95% is within 2, and about 99.7% is within 3. Also called the 68-95-99.7 rule.\nSee Also: normal distribution\n\n\n\nfence\nA cutoff for outliers. The lower fence is \\(Q_1 - 1.5 \\times \\text{IQR}\\). The upper fence is \\(Q_3 + 1.5 \\times \\text{IQR}\\). A value outside the fences is an outlier.\nSee Also: outlier, interquartile range\n\n\n\nfive-number summary\nFive numbers that describe a data set: the minimum, Q1, the median, Q3, and the maximum.\nSee Also: box plot, quartile\n\n\n\nfrequency\nHow many times a value happens in a data set.\n\nExample:\nIn the data 2, 3, 3, 5, the value 3 has a frequency of 2.\n\n\n\n\nfrequency table\nA table that lists each value and its frequency.\nSee Also: frequency, tally\n\n\n\nhistogram\nA bar graph for number data. The values are put in groups called bins. The bars touch, and the height of each bar is how many values are in that bin.\nSee Also: bin, dot plot\n\n\n\ninterquartile range\nThe distance from Q1 to Q3. It shows how spread out the middle half of the data is. Also called the IQR.\n\\[\\text{IQR} = Q_3 - Q_1\\]\nSee Also: quartile, range\n\n\n\nIQR\nShort for interquartile range: \\(Q_3 - Q_1\\). It shows how spread out the middle half of the data is.\nSee Also: interquartile range\n\n\n\nmaximum\nThe largest value in a data set.\n\n\n\nmean\nThe sum of all the values divided by how many values there are. Also called the average.\n\nExample:\nThe mean of 2, 3, 8, 3, 4 is \\(20 \\div 5 = 4\\).\n\nSee Also: median\n\n\n\nmedian\nThe middle value when the data is in order. With an even number of values, the median is halfway between the two middle values.\n\nExample:\nThe median of 2, 3, 3, 4, 8 is 3.\n\nSee Also: mean\n\n\n\nminimum\nThe smallest value in a data set.\n\n\n\nmode\nThe value that happens most often in a data set.\n\n\n\nnormal distribution\nA bell-shaped, symmetric distribution. Its mean and median are equal and sit in the center. It is described by its mean and its standard deviation.\nSee Also: empirical rule, z-score\n\n\n\noutlier\nA value that is far away from the rest of the data. A common rule: a value is an outlier if it is more than \\(1.5 \\times \\text{IQR}\\) below Q1 or above Q3.\nSee Also: fence\n\n\n\npercentile\nThe percent of the data that is below a value.\n\nExample:\nA score at the 75th percentile is higher than 75% of the scores.\n\nSee Also: z-score, quartile\n\n\n\npopulation\nThe whole group we want to learn about.\n\nExample:\nAll students at a school. A sample might be 50 of those students.\n\nSee Also: sample\n\n\n\nquartile\nThe three values that cut ordered data into four parts with the same number of values. Q1 is the median of the lower half. The median is Q2. Q3 is the median of the upper half.\nSee Also: five-number summary, interquartile range\n\n\n\nrange\nThe maximum minus the minimum. It shows how spread out all the data is.\nSee Also: interquartile range\n\n\n\nsample\nA part of a group that we collect data from. We use the sample to learn about the whole group (the population).\nSee Also: population\n\n\n\nshape\nWhat a graph of the data looks like: symmetric, skewed left, or skewed right.\nSee Also: symmetric, skewed left, skewed right\n\n\n\nskewed left\nA shape where most values are high and a long tail stretches to the left. The mean is less than the median.\nSee Also: skewed right, tail\n\n\n\nskewed right\nA shape where most values are low and a long tail stretches to the right. The mean is greater than the median.\n\nExample:\nUS household income is skewed right.\n\nSee Also: skewed left, tail\n\n\n\nspread\nHow far apart the values in a data set are. The range, the IQR, and the standard deviation are measures of spread.\nSee Also: range, interquartile range, standard deviation\n\n\n\nstandard deviation\nA number that tells how far the values in a data set usually are from the mean. A small standard deviation means the values are close to the mean. It is often written \\(s\\) (for a sample) or SD.\n\\[s = \\sqrt{\\frac{\\text{sum of } (x - \\bar{x})^2}{n - 1}}\\]\nSee Also: variance, mean\n\n\n\nsymmetric\nA shape where the left side and the right side look about the same. The mean and the median are about equal.\n\n\n\ntail\nThe long, low side of a graph. The mean is pulled toward the tail.\n\n\n\ntally\nA mark made for each data value as you count it.\n\n\n\nvariance\nThe standard deviation squared. To find it, add the squared differences from the mean and divide by \\(n - 1\\).\nSee Also: standard deviation\n\n\n\nwhisker\nA line on a box plot that goes from the box out to the smallest or largest value that is not an outlier.\nSee Also: box plot\n\n\n\nz-score\nHow many standard deviations a value is above or below the mean. A positive z-score is above the mean. A negative z-score is below the mean.\n\\[z = \\frac{\\text{value} - \\text{mean}}{\\text{SD}}\\]\nSee Also: standard deviation, percentile\n\n\n\nz-table\nA table that gives the area under the standard normal curve to the left of a z-score. That area is the proportion of the data below the z-score.\nSee Also: z-score, normal distribution",
     "crumbs": [
       "Glossary"
     ]
