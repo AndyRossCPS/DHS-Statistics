@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./chapters/Unit_6/6.7_Probability_with_Counting.html" rel="prev">
+<link href="./chapters/Unit_7/7.3_Expected_Payoff.html" rel="prev">
 <link href="./images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -439,6 +439,41 @@ window.Quarto = {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 7: Probability Distributions</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_7/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_7/7.1_Probability_Distributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.1 - Probability Distributions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_7/7.2_Expected_Value.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.2 - Expected Value</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_7/7.3_Expected_Payoff.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.3 - Expected Payoff</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./glossary.html" class="sidebar-item-text sidebar-link active">
@@ -477,12 +512,16 @@ window.Quarto = {
   <li><a href="#glossary-distribution" id="toc-glossary-distribution" class="nav-link" data-scroll-target="#glossary-distribution">distribution</a></li>
   <li><a href="#glossary-dot-plot" id="toc-glossary-dot-plot" class="nav-link" data-scroll-target="#glossary-dot-plot">dot plot</a></li>
   <li><a href="#glossary-double-blind" id="toc-glossary-double-blind" class="nav-link" data-scroll-target="#glossary-double-blind">double-blind</a></li>
+  <li><a href="#glossary-empirical-distribution" id="toc-glossary-empirical-distribution" class="nav-link" data-scroll-target="#glossary-empirical-distribution">empirical distribution</a></li>
   <li><a href="#glossary-empirical-rule" id="toc-glossary-empirical-rule" class="nav-link" data-scroll-target="#glossary-empirical-rule">empirical rule</a></li>
+  <li><a href="#glossary-expected-payoff" id="toc-glossary-expected-payoff" class="nav-link" data-scroll-target="#glossary-expected-payoff">expected payoff</a></li>
+  <li><a href="#glossary-expected-value" id="toc-glossary-expected-value" class="nav-link" data-scroll-target="#glossary-expected-value">expected value</a></li>
   <li><a href="#glossary-experiment" id="toc-glossary-experiment" class="nav-link" data-scroll-target="#glossary-experiment">experiment</a></li>
   <li><a href="#glossary-experimental-probability" id="toc-glossary-experimental-probability" class="nav-link" data-scroll-target="#glossary-experimental-probability">experimental probability</a></li>
   <li><a href="#glossary-explanatory-variable" id="toc-glossary-explanatory-variable" class="nav-link" data-scroll-target="#glossary-explanatory-variable">explanatory variable</a></li>
   <li><a href="#glossary-extrapolation" id="toc-glossary-extrapolation" class="nav-link" data-scroll-target="#glossary-extrapolation">extrapolation</a></li>
   <li><a href="#glossary-factorial" id="toc-glossary-factorial" class="nav-link" data-scroll-target="#glossary-factorial">factorial</a></li>
+  <li><a href="#glossary-fair-game" id="toc-glossary-fair-game" class="nav-link" data-scroll-target="#glossary-fair-game">fair game</a></li>
   <li><a href="#glossary-fence" id="toc-glossary-fence" class="nav-link" data-scroll-target="#glossary-fence">fence</a></li>
   <li><a href="#glossary-five-number-summary" id="toc-glossary-five-number-summary" class="nav-link" data-scroll-target="#glossary-five-number-summary">five-number summary</a></li>
   <li><a href="#glossary-frequency" id="toc-glossary-frequency" class="nav-link" data-scroll-target="#glossary-frequency">frequency</a></li>
@@ -507,6 +546,7 @@ window.Quarto = {
   <li><a href="#glossary-mu" id="toc-glossary-mu" class="nav-link" data-scroll-target="#glossary-mu">mu</a></li>
   <li><a href="#glossary-multiplication-rule" id="toc-glossary-multiplication-rule" class="nav-link" data-scroll-target="#glossary-multiplication-rule">multiplication rule</a></li>
   <li><a href="#glossary-mutually-exclusive" id="toc-glossary-mutually-exclusive" class="nav-link" data-scroll-target="#glossary-mutually-exclusive">mutually exclusive</a></li>
+  <li><a href="#glossary-net-gain" id="toc-glossary-net-gain" class="nav-link" data-scroll-target="#glossary-net-gain">net gain</a></li>
   <li><a href="#glossary-normal-distribution" id="toc-glossary-normal-distribution" class="nav-link" data-scroll-target="#glossary-normal-distribution">normal distribution</a></li>
   <li><a href="#glossary-observational-study" id="toc-glossary-observational-study" class="nav-link" data-scroll-target="#glossary-observational-study">observational study</a></li>
   <li><a href="#glossary-outlier" id="toc-glossary-outlier" class="nav-link" data-scroll-target="#glossary-outlier">outlier</a></li>
@@ -515,8 +555,10 @@ window.Quarto = {
   <li><a href="#glossary-placebo" id="toc-glossary-placebo" class="nav-link" data-scroll-target="#glossary-placebo">placebo</a></li>
   <li><a href="#glossary-population" id="toc-glossary-population" class="nav-link" data-scroll-target="#glossary-population">population</a></li>
   <li><a href="#glossary-probability" id="toc-glossary-probability" class="nav-link" data-scroll-target="#glossary-probability">probability</a></li>
+  <li><a href="#glossary-probability-distribution" id="toc-glossary-probability-distribution" class="nav-link" data-scroll-target="#glossary-probability-distribution">probability distribution</a></li>
   <li><a href="#glossary-quartile" id="toc-glossary-quartile" class="nav-link" data-scroll-target="#glossary-quartile">quartile</a></li>
   <li><a href="#glossary-random-assignment" id="toc-glossary-random-assignment" class="nav-link" data-scroll-target="#glossary-random-assignment">random assignment</a></li>
+  <li><a href="#glossary-random-variable" id="toc-glossary-random-variable" class="nav-link" data-scroll-target="#glossary-random-variable">random variable</a></li>
   <li><a href="#glossary-range" id="toc-glossary-range" class="nav-link" data-scroll-target="#glossary-range">range</a></li>
   <li><a href="#glossary-relative-frequency" id="toc-glossary-relative-frequency" class="nav-link" data-scroll-target="#glossary-relative-frequency">relative frequency</a></li>
   <li><a href="#glossary-residual" id="toc-glossary-residual" class="nav-link" data-scroll-target="#glossary-residual">residual</a></li>
@@ -724,10 +766,28 @@ window.Quarto = {
 <p>An experiment where neither the subjects nor the people measuring the results know who got which treatment.</p>
 <hr>
 </section>
+<section id="glossary-empirical-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-empirical-distribution">empirical distribution</h3>
+<p>A probability distribution made from data. Each probability is a count divided by the total.</p>
+<p><strong>See Also:</strong> <a href="#glossary-theoretical-probability" class="glossary-link" data-term="theoretical probability" data-slug="theoretical-probability" data-original-href="#glossary-theoretical-probability">theoretical probability</a></p>
+<hr>
+</section>
 <section id="glossary-empirical-rule" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-empirical-rule">empirical rule</h3>
 <p>In a normal distribution, about 68% of the data is within 1 standard deviation of the mean, about 95% is within 2, and about 99.7% is within 3. Also called the 68-95-99.7 rule.</p>
 <p><strong>See Also:</strong> <a href="#glossary-normal-distribution" class="glossary-link" data-term="normal distribution" data-slug="normal-distribution" data-original-href="#glossary-normal-distribution">normal distribution</a></p>
+<hr>
+</section>
+<section id="glossary-expected-payoff" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-expected-payoff">expected payoff</h3>
+<p>The expected value of the net gain: <span class="math inline">\(\Sigma\,(\text{net gain} \cdot \text{probability})\)</span>. A negative expected payoff means you lose money on average.</p>
+<p><strong>See Also:</strong> <a href="#glossary-expected-value" class="glossary-link" data-term="expected value" data-slug="expected-value" data-original-href="#glossary-expected-value">expected value</a>, <a href="#glossary-net-gain" class="glossary-link" data-term="net gain" data-slug="net-gain" data-original-href="#glossary-net-gain">net gain</a></p>
+<hr>
+</section>
+<section id="glossary-expected-value" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-expected-value">expected value</h3>
+<p>The long-run average of a random variable: <span class="math inline">\(E(X) = \Sigma\, x \cdot P(x)\)</span>. Multiply each value by its probability and add. Also called the mean of <span class="math inline">\(X\)</span>, <span class="math inline">\(\mu_X\)</span>.</p>
+<p><strong>See Also:</strong> <a href="#glossary-expected-payoff" class="glossary-link" data-term="expected payoff" data-slug="expected-payoff" data-original-href="#glossary-expected-payoff">expected payoff</a></p>
 <hr>
 </section>
 <section id="glossary-experiment" class="level3">
@@ -760,6 +820,11 @@ window.Quarto = {
 <p><strong>Example:</strong></p>
 <p><span class="math inline">\(4! = 4 \cdot 3 \cdot 2 \cdot 1 = 24\)</span></p>
 </blockquote>
+<hr>
+</section>
+<section id="glossary-fair-game" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-fair-game">fair game</h3>
+<p>A game where the expected value of what you win is 0. On average, no one wins or loses.</p>
 <hr>
 </section>
 <section id="glossary-fence" class="level3">
@@ -915,6 +980,11 @@ window.Quarto = {
 <p>Events that cannot happen at the same time. Then <span class="math inline">\(P(A \cap B) = 0\)</span> and <span class="math inline">\(P(A \cup B) = P(A) + P(B)\)</span>.</p>
 <hr>
 </section>
+<section id="glossary-net-gain" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-net-gain">net gain</h3>
+<p>What you win minus what you paid. It is negative when you lose money.</p>
+<hr>
+</section>
 <section id="glossary-normal-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-normal-distribution">normal distribution</h3>
 <p>A bell-shaped, symmetric distribution. Its mean and median are equal and sit in the center. It is described by its mean and its standard deviation.</p>
@@ -970,6 +1040,12 @@ window.Quarto = {
 <p><span class="math display">\[P(A) = \frac{\text{number of ways } A \text{ can happen}}{\text{total number of outcomes}}\]</span></p>
 <hr>
 </section>
+<section id="glossary-probability-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-probability-distribution">probability distribution</h3>
+<p>A list or graph of every value of a random variable and its probability. Every probability is from 0 to 1, and they add to 1: <span class="math inline">\(\Sigma P(x) = 1\)</span>.</p>
+<p><strong>See Also:</strong> <a href="#glossary-random-variable" class="glossary-link" data-term="random variable" data-slug="random-variable" data-original-href="#glossary-random-variable">random variable</a>, <a href="#glossary-expected-value" class="glossary-link" data-term="expected value" data-slug="expected-value" data-original-href="#glossary-expected-value">expected value</a></p>
+<hr>
+</section>
 <section id="glossary-quartile" class="level3">
 <h3 class="anchored" data-anchor-id="glossary-quartile">quartile</h3>
 <p>The three values that cut ordered data into four parts with the same number of values. Q1 is the median of the lower half. The median is Q2. Q3 is the median of the upper half.</p>
@@ -980,6 +1056,12 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="glossary-random-assignment">random assignment</h3>
 <p>Using chance to decide which subjects get which treatment. It makes the groups alike, so a difference can be blamed on the treatment.</p>
 <p><strong>See Also:</strong> <a href="#glossary-experiment" class="glossary-link" data-term="experiment" data-slug="experiment" data-original-href="#glossary-experiment">experiment</a></p>
+<hr>
+</section>
+<section id="glossary-random-variable" class="level3">
+<h3 class="anchored" data-anchor-id="glossary-random-variable">random variable</h3>
+<p>A number that comes from a chance process, such as the number of heads in 3 coin flips. It is often written with a capital letter, like <span class="math inline">\(X\)</span>.</p>
+<p><strong>See Also:</strong> <a href="#glossary-probability-distribution" class="glossary-link" data-term="probability distribution" data-slug="probability-distribution" data-original-href="#glossary-probability-distribution">probability distribution</a></p>
 <hr>
 </section>
 <section id="glossary-range" class="level3">
@@ -1916,8 +1998,8 @@ window.Quarto = {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./chapters/Unit_6/6.7_Probability_with_Counting.html" class="pagination-link" aria-label="6.7 - Probability with Counting">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">6.7 - Probability with Counting</span>
+      <a href="./chapters/Unit_7/7.3_Expected_Payoff.html" class="pagination-link" aria-label="7.3 - Expected Payoff">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">7.3 - Expected Payoff</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
