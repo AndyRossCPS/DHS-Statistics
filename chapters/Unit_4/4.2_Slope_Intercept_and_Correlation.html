@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,15 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../images/logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-8b9bb9c0cd37490f70bdcbdbd9161a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-859b66b35598d39ec8aae4cd3ab271c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,7 +106,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+      if (mathElements[i].tagName == "SPAN") {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -165,8 +164,7 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="../../index.html" class="sidebar-logo-link">
-      <img src="../../images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="../../images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <img src="../../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -219,6 +217,12 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="../../chapters/Unit_1/1.4_Reading_Box_Plots_and_Outliers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1.4 - Reading Box Plots and Outliers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 1 Review</span></a>
   </div>
 </li>
       </ul>
@@ -534,7 +538,7 @@ window.Quarto = {
 </ul>
 </div>
 <div class="vocab">
-<p><a href="../../glossary.html#glossary-slope" class="glossary-link" data-original-href="#glossary-slope" data-slug="slope" data-term="slope">slope</a>, <a href="../../glossary.html#glossary-y-intercept" class="glossary-link" data-original-href="#glossary-y-intercept" data-slug="y-intercept" data-term="y-intercept">y-intercept</a>, <a href="../../glossary.html#glossary-correlation-coefficient" class="glossary-link" data-original-href="#glossary-correlation-coefficient" data-slug="correlation-coefficient" data-term="correlation coefficient">correlation coefficient</a>, <a href="../../glossary.html#glossary-causation" class="glossary-link" data-original-href="#glossary-causation" data-slug="causation" data-term="causation">causation</a>, <a href="../../glossary.html#glossary-lurking-variable" class="glossary-link" data-original-href="#glossary-lurking-variable" data-slug="lurking-variable" data-term="lurking variable">lurking variable</a></p>
+<p><a href="../../glossary.html#glossary-slope" class="glossary-link" data-original-href="#glossary-slope" data-term="slope" data-slug="slope">slope</a>, <a href="../../glossary.html#glossary-y-intercept" class="glossary-link" data-original-href="#glossary-y-intercept" data-term="y-intercept" data-slug="y-intercept">y-intercept</a>, <a href="../../glossary.html#glossary-correlation-coefficient" class="glossary-link" data-original-href="#glossary-correlation-coefficient" data-term="correlation coefficient" data-slug="correlation-coefficient">correlation coefficient</a>, <a href="../../glossary.html#glossary-causation" class="glossary-link" data-original-href="#glossary-causation" data-term="causation" data-slug="causation">causation</a>, <a href="../../glossary.html#glossary-lurking-variable" class="glossary-link" data-original-href="#glossary-lurking-variable" data-term="lurking variable" data-slug="lurking-variable">lurking variable</a></p>
 </div>
 <div class="guided-notes-link">
 <p><a href="../../handouts/Unit_4/4.2_Slope_Intercept_and_Correlation.pdf" target="_blank">Printable mini lesson</a> - notes and practice problems to print and write on.</p>
@@ -585,7 +589,7 @@ window.Quarto = {
 </section>
 <section id="the-correlation-coefficient" class="level3">
 <h3 class="anchored" data-anchor-id="the-correlation-coefficient">4.2.2 - The Correlation Coefficient</h3>
-<p>The <a href="../../glossary.html#glossary-correlation-coefficient" class="glossary-link" data-original-href="#glossary-correlation-coefficient" data-slug="correlation-coefficient" data-term="correlation coefficient">correlation coefficient</a> <span class="math inline">\(r\)</span> measures how strong a <strong>linear</strong> pattern is.</p>
+<p>The <a href="../../glossary.html#glossary-correlation-coefficient" class="glossary-link" data-original-href="#glossary-correlation-coefficient" data-term="correlation coefficient" data-slug="correlation-coefficient">correlation coefficient</a> <span class="math inline">\(r\)</span> measures how strong a <strong>linear</strong> pattern is.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../images/Unit_4/4.2_r_examples.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="640"></p>
@@ -606,7 +610,7 @@ window.Quarto = {
 <section id="correlation-is-not-causation" class="level3">
 <h3 class="anchored" data-anchor-id="correlation-is-not-causation">4.2.3 - Correlation Is Not Causation</h3>
 <p>Ice cream sales and sunburns have a strong positive correlation. But ice cream does not cause sunburns. Hot, sunny weather causes <strong>both</strong>.</p>
-<p>A hidden cause like this is called a <a href="../../glossary.html#glossary-lurking-variable" class="glossary-link" data-original-href="#glossary-lurking-variable" data-slug="lurking-variable" data-term="lurking variable">lurking variable</a>.</p>
+<p>A hidden cause like this is called a <a href="../../glossary.html#glossary-lurking-variable" class="glossary-link" data-original-href="#glossary-lurking-variable" data-term="lurking variable" data-slug="lurking-variable">lurking variable</a>.</p>
 <div class="remember" title="Correlation Is Not Causation">
 <p>A correlation shows that two things change together. It does <strong>not</strong> prove that one causes the other.</p>
 </div>
@@ -993,14 +997,13 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

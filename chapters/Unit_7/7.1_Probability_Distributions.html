@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,15 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../images/logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-8b9bb9c0cd37490f70bdcbdbd9161a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-859b66b35598d39ec8aae4cd3ab271c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,7 +106,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+      if (mathElements[i].tagName == "SPAN") {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -165,8 +164,7 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="../../index.html" class="sidebar-logo-link">
-      <img src="../../images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="../../images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <img src="../../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -219,6 +217,12 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="../../chapters/Unit_1/1.4_Reading_Box_Plots_and_Outliers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1.4 - Reading Box Plots and Outliers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 1 Review</span></a>
   </div>
 </li>
       </ul>
@@ -524,7 +528,7 @@ window.Quarto = {
 
 
 <p>Flip a coin 2 times and count the heads. You might get 0, 1, or 2 heads. Are they all equally likely?</p>
-<p>No.&nbsp;There are four outcomes: HH, HT, TH, TT. Only one gives 0 heads, but two give 1 head. In this lesson, you list every possible value with its probability. That list is called a <a href="../../glossary.html#glossary-probability-distribution" class="glossary-link" data-term="probability distribution" data-slug="probability-distribution" data-original-href="#glossary-probability-distribution">probability distribution</a>.</p>
+<p>No.&nbsp;There are four outcomes: HH, HT, TH, TT. Only one gives 0 heads, but two give 1 head. In this lesson, you list every possible value with its probability. That list is called a <a href="../../glossary.html#glossary-probability-distribution" class="glossary-link" data-slug="probability-distribution" data-original-href="#glossary-probability-distribution" data-term="probability distribution">probability distribution</a>.</p>
 <div class="objectives">
 <ul class="task-list">
 <li><label><input type="checkbox">I explain what a random variable is.</label></li>
@@ -534,7 +538,7 @@ window.Quarto = {
 </ul>
 </div>
 <div class="vocab">
-<p><a href="../../glossary.html#glossary-random-variable" class="glossary-link" data-term="random variable" data-slug="random-variable" data-original-href="#glossary-random-variable">random variable</a>, <a href="../../glossary.html#glossary-probability-distribution" class="glossary-link" data-term="probability distribution" data-slug="probability-distribution" data-original-href="#glossary-probability-distribution">probability distribution</a>, <a href="../../glossary.html#glossary-theoretical-probability" class="glossary-link" data-term="theoretical probability" data-slug="theoretical-probability" data-original-href="#glossary-theoretical-probability">theoretical probability</a>, <a href="../../glossary.html#glossary-empirical-distribution" class="glossary-link" data-term="empirical distribution" data-slug="empirical-distribution" data-original-href="#glossary-empirical-distribution">empirical distribution</a></p>
+<p><a href="../../glossary.html#glossary-random-variable" class="glossary-link" data-slug="random-variable" data-original-href="#glossary-random-variable" data-term="random variable">random variable</a>, <a href="../../glossary.html#glossary-probability-distribution" class="glossary-link" data-slug="probability-distribution" data-original-href="#glossary-probability-distribution" data-term="probability distribution">probability distribution</a>, <a href="../../glossary.html#glossary-theoretical-probability" class="glossary-link" data-slug="theoretical-probability" data-original-href="#glossary-theoretical-probability" data-term="theoretical probability">theoretical probability</a>, <a href="../../glossary.html#glossary-empirical-distribution" class="glossary-link" data-slug="empirical-distribution" data-original-href="#glossary-empirical-distribution" data-term="empirical distribution">empirical distribution</a></p>
 </div>
 <div class="guided-notes-link">
 <p><a href="../../handouts/Unit_7/7.1_Probability_Distributions.pdf" target="_blank">Printable mini lesson</a> - notes and practice problems to print and write on.</p>
@@ -546,7 +550,7 @@ window.Quarto = {
 <h2 class="unnumbered anchored" data-anchor-id="learn">👥 Learn Together</h2>
 <section id="random-variables-and-distributions" class="level3">
 <h3 class="anchored" data-anchor-id="random-variables-and-distributions">7.1.1 - Random Variables and Distributions</h3>
-<p>Flip a coin 2 times. Let <span class="math inline">\(X\)</span> = the number of heads. <span class="math inline">\(X\)</span> is a <a href="../../glossary.html#glossary-random-variable" class="glossary-link" data-term="random variable" data-slug="random-variable" data-original-href="#glossary-random-variable">random variable</a>: a number that comes from a chance process.</p>
+<p>Flip a coin 2 times. Let <span class="math inline">\(X\)</span> = the number of heads. <span class="math inline">\(X\)</span> is a <a href="../../glossary.html#glossary-random-variable" class="glossary-link" data-slug="random-variable" data-original-href="#glossary-random-variable" data-term="random variable">random variable</a>: a number that comes from a chance process.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -1073,14 +1077,13 @@ P(X \ge 1) = P(1) + P(2) = \frac{1}{2} + \frac{1}{4} = \frac{3}{4}
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

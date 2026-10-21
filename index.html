@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,15 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="./images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8b9bb9c0cd37490f70bdcbdbd9161a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-859b66b35598d39ec8aae4cd3ab271c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,7 +106,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+      if (mathElements[i].tagName == "SPAN") {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -165,8 +164,7 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="./images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -219,6 +217,12 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="./chapters/Unit_1/1.4_Reading_Box_Plots_and_Outliers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1.4 - Reading Box Plots and Outliers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/Unit_1/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 1 Review</span></a>
   </div>
 </li>
       </ul>
@@ -581,156 +585,161 @@ window.Quarto = {
 <td>Unit 1, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:display-quantitative/box--whisker-plots-a1" target="_blank">5</a></td>
 </tr>
 <tr class="even">
+<td><a href="./chapters/Unit_1/Review.html">Review</a></td>
+<td>Unit 1 review</td>
+<td>Unit 1, lessons <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:display-quantitative/xa88397b6:frequency-tables-dot-plots" target="_blank">1</a> to <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:display-quantitative/box--whisker-plots-a1" target="_blank">5</a></td>
+</tr>
+<tr class="odd">
 <td><strong>Unit 2: Analyzing One Variable</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_2/2.1_Standard_Deviation.html">2.1</a></td>
 <td>Standard deviation</td>
 <td>Unit 2, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:analyze-quantitative/xa88397b6:standard-deviation" target="_blank">1</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_2/2.2_Choosing_Measures_and_Comparing_Distributions.html">2.2</a></td>
 <td>Choosing measures and comparing distributions</td>
 <td>Unit 2, lessons <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:analyze-quantitative/xa88397b6:standard-deviation" target="_blank">1</a> and <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:analyze-quantitative/xa88397b6:untitled-193" target="_blank">2</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_2/2.3_Percentiles_and_Z-Scores.html">2.3</a></td>
 <td>Percentiles and z-scores</td>
 <td>Unit 2, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:analyze-quantitative/xa88397b6:percentiles-z-scores" target="_blank">3</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_2/2.4_Normal_Distributions_and_the_Empirical_Rule.html">2.4</a></td>
 <td>Normal distributions and the empirical rule</td>
 <td>Unit 2, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:analyze-quantitative/normal-distributions-a2ii" target="_blank">4</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_2/2.5_Normal_Calculations_with_a_Z-Table.html">2.5</a></td>
 <td>Normal calculations with a z-table</td>
 <td>Unit 2, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:analyze-quantitative/xa88397b6:normal-distribution-calculations" target="_blank">5</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html">2.6</a></td>
 <td>Normal calculations in reverse</td>
 <td>Unit 2, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:analyze-quantitative/xa88397b6:normal-distribution-calculations" target="_blank">5</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Unit 3: Two-Way Tables</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_3/3.1_Two-Way_Tables_and_Relative_Frequency.html">3.1</a></td>
 <td>Two-way tables and relative frequency</td>
 <td>Unit 3, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:two-way-tables/two-way-frequency-tables" target="_blank">1</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_3/3.2_Marginal_and_Conditional_Distributions.html">3.2</a></td>
 <td>Marginal and conditional distributions</td>
 <td>Unit 3, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:two-way-tables/two-way-relative-frequency-tables" target="_blank">2</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Unit 4: Scatterplots</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_4/4.1_Scatterplots_and_Lines_of_Best_Fit.html">4.1</a></td>
 <td>Scatterplots and lines of best fit</td>
 <td>Unit 4, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:scatterplots/creating-interpreting-scatterplots" target="_blank">1</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_4/4.2_Slope_Intercept_and_Correlation.html">4.2</a></td>
 <td>Slope, intercept, and correlation</td>
 <td>Unit 4, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:scatterplots/estimating-trend-lines" target="_blank">2</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_4/4.3_Residuals.html">4.3</a></td>
 <td>Residuals</td>
 <td>Unit 4, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:scatterplots/xa88397b6:residuals" target="_blank">3</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Unit 5: Study Design</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_5/5.1_Samples_Studies_and_Bias.html">5.1</a></td>
 <td>Samples, studies, and bias</td>
 <td>Unit 5, lessons <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:study-design/samples-surveys" target="_blank">1</a> and <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:study-design/xa88397b6:potential-problems-sampling" target="_blank">2</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_5/5.2_Sampling_Methods.html">5.2</a></td>
 <td>Sampling methods</td>
 <td>Unit 5, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:study-design/xa88397b6:sampling-methods" target="_blank">3</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_5/5.3_Experiments.html">5.3</a></td>
 <td>Experiments</td>
 <td>Unit 5, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:study-design/observational-studies-experiments" target="_blank">4</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_5/5.4_What_a_Study_Can_Prove.html">5.4</a></td>
 <td>What a study can prove</td>
 <td>Unit 5, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:study-design/xa88397b6:inference-experiments" target="_blank">5</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Unit 6: Probability</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_6/6.1_Venn_Diagrams_and_the_Addition_Rule.html">6.1</a></td>
 <td>Venn diagrams and the addition rule</td>
 <td>Unit 6, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability/addition-rule-for-probability" target="_blank">1</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_6/6.2_The_Multiplication_Rule.html">6.2</a></td>
 <td>The multiplication rule</td>
 <td>Unit 6, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability/xa88397b6:multiplication-rule" target="_blank">2</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_6/6.3_Conditional_Probability.html">6.3</a></td>
 <td>Conditional probability</td>
 <td>Unit 6, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability/conditional-probability-geo" target="_blank">3</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_6/6.4_Simulations.html">6.4</a></td>
 <td>Simulations</td>
 <td>Unit 6, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability/xa88397b6:probability-from-simulations" target="_blank">4</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_6/6.5_Permutations.html">6.5</a></td>
 <td>Permutations</td>
 <td>Unit 6, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability/counting-permutations" target="_blank">5</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_6/6.6_Combinations.html">6.6</a></td>
 <td>Combinations</td>
 <td>Unit 6, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability/counting-combinations" target="_blank">6</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_6/6.7_Probability_with_Counting.html">6.7</a></td>
 <td>Probability with counting</td>
 <td>Unit 6, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability/probability-counting-permutations-combinations" target="_blank">7</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Unit 7: Probability Distributions</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_7/7.1_Probability_Distributions.html">7.1</a></td>
 <td>Probability distributions</td>
 <td>Unit 7, lessons <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability-distributions-expected-value/xa88397b6:probability-distributions-introduction" target="_blank">1</a> and <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability-distributions-expected-value/xa88397b6:theoretical-empirical-probability-distributions" target="_blank">2</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./chapters/Unit_7/7.2_Expected_Value.html">7.2</a></td>
 <td>Expected value</td>
 <td>Unit 7, lessons <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability-distributions-expected-value/xa88397b6:decisions-probability" target="_blank">3</a> and <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability-distributions-expected-value/expected-value-geo" target="_blank">4</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./chapters/Unit_7/7.3_Expected_Payoff.html">7.3</a></td>
 <td>Expected payoff</td>
 <td>Unit 7, lesson <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:probability-distributions-expected-value/expected-value-geo" target="_blank">4</a></td>
@@ -1082,14 +1091,13 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

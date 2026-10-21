@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,15 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../images/logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-8b9bb9c0cd37490f70bdcbdbd9161a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-859b66b35598d39ec8aae4cd3ab271c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,7 +106,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+      if (mathElements[i].tagName == "SPAN") {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -165,8 +164,7 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="../../index.html" class="sidebar-logo-link">
-      <img src="../../images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="../../images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <img src="../../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -219,6 +217,12 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="../../chapters/Unit_1/1.4_Reading_Box_Plots_and_Outliers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1.4 - Reading Box Plots and Outliers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 1 Review</span></a>
   </div>
 </li>
       </ul>
@@ -528,7 +532,7 @@ window.Quarto = {
 <p>1, 0, 2, 1, 1, 3, 2, 0, 1, 2, 4</p>
 </div>
 <p>What number is most common? It is hard to see in a list. A table or a graph shows it at once.</p>
-<p>In this lesson, you learn three ways to show <a href="../../glossary.html#glossary-data" class="glossary-link" data-original-href="#glossary-data" data-term="data" data-slug="data">data</a>: frequency tables, dot plots, and histograms.</p>
+<p>In this lesson, you learn three ways to show <a href="../../glossary.html#glossary-data" class="glossary-link" data-slug="data" data-original-href="#glossary-data" data-term="data">data</a>: frequency tables, dot plots, and histograms.</p>
 <div class="objectives">
 <ul class="task-list">
 <li><label><input type="checkbox">I make and read a frequency table.</label></li>
@@ -537,7 +541,7 @@ window.Quarto = {
 </ul>
 </div>
 <div class="vocab">
-<p><a href="../../glossary.html#glossary-data" class="glossary-link" data-original-href="#glossary-data" data-term="data" data-slug="data">data</a>, <a href="../../glossary.html#glossary-frequency" class="glossary-link" data-original-href="#glossary-frequency" data-term="frequency" data-slug="frequency">frequency</a>, <a href="../../glossary.html#glossary-frequency-table" class="glossary-link" data-original-href="#glossary-frequency-table" data-term="frequency table" data-slug="frequency-table">frequency table</a>, <a href="../../glossary.html#glossary-tally" class="glossary-link" data-original-href="#glossary-tally" data-term="tally" data-slug="tally">tally</a>, <a href="../../glossary.html#glossary-dot-plot" class="glossary-link" data-original-href="#glossary-dot-plot" data-term="dot plot" data-slug="dot-plot">dot plot</a>, <a href="../../glossary.html#glossary-histogram" class="glossary-link" data-original-href="#glossary-histogram" data-term="histogram" data-slug="histogram">histogram</a>, <a href="../../glossary.html#glossary-bin" class="glossary-link" data-original-href="#glossary-bin" data-term="bin" data-slug="bin">bin</a></p>
+<p><a href="../../glossary.html#glossary-data" class="glossary-link" data-slug="data" data-original-href="#glossary-data" data-term="data">data</a>, <a href="../../glossary.html#glossary-frequency" class="glossary-link" data-slug="frequency" data-original-href="#glossary-frequency" data-term="frequency">frequency</a>, <a href="../../glossary.html#glossary-frequency-table" class="glossary-link" data-slug="frequency-table" data-original-href="#glossary-frequency-table" data-term="frequency table">frequency table</a>, <a href="../../glossary.html#glossary-tally" class="glossary-link" data-slug="tally" data-original-href="#glossary-tally" data-term="tally">tally</a>, <a href="../../glossary.html#glossary-dot-plot" class="glossary-link" data-slug="dot-plot" data-original-href="#glossary-dot-plot" data-term="dot plot">dot plot</a>, <a href="../../glossary.html#glossary-histogram" class="glossary-link" data-slug="histogram" data-original-href="#glossary-histogram" data-term="histogram">histogram</a>, <a href="../../glossary.html#glossary-bin" class="glossary-link" data-slug="bin" data-original-href="#glossary-bin" data-term="bin">bin</a></p>
 </div>
 <div class="guided-notes-link">
 <p><a href="../../handouts/Unit_1/1.1_Frequency_Tables_Dot_Plots_and_Histograms.pdf" target="_blank">Printable mini lesson</a> - notes and practice problems to print and write on.</p>
@@ -549,8 +553,8 @@ window.Quarto = {
 <h2 class="unnumbered anchored" data-anchor-id="learn">👥 Learn Together</h2>
 <section id="frequency-tables" class="level3">
 <h3 class="anchored" data-anchor-id="frequency-tables">1.1.1 - Frequency Tables</h3>
-<p><a href="../../glossary.html#glossary-frequency" class="glossary-link" data-original-href="#glossary-frequency" data-term="Frequency" data-slug="frequency">Frequency</a> means <strong>how many times</strong> something happens.</p>
-<p>A <a href="../../glossary.html#glossary-frequency-table" class="glossary-link" data-original-href="#glossary-frequency-table" data-term="frequency table" data-slug="frequency-table">frequency table</a> lists each value and its frequency. Read the data one value at a time. Make a <a href="../../glossary.html#glossary-tally" class="glossary-link" data-original-href="#glossary-tally" data-term="tally" data-slug="tally">tally</a> mark for each one. Then count the marks.</p>
+<p><a href="../../glossary.html#glossary-frequency" class="glossary-link" data-slug="frequency" data-original-href="#glossary-frequency" data-term="Frequency">Frequency</a> means <strong>how many times</strong> something happens.</p>
+<p>A <a href="../../glossary.html#glossary-frequency-table" class="glossary-link" data-slug="frequency-table" data-original-href="#glossary-frequency-table" data-term="frequency table">frequency table</a> lists each value and its frequency. Read the data one value at a time. Make a <a href="../../glossary.html#glossary-tally" class="glossary-link" data-slug="tally" data-original-href="#glossary-tally" data-term="tally">tally</a> mark for each one. Then count the marks.</p>
 <p>Here is the siblings data:</p>
 <table class="caption-top table">
 <thead>
@@ -597,7 +601,7 @@ window.Quarto = {
 </section>
 <section id="dot-plots" class="level3">
 <h3 class="anchored" data-anchor-id="dot-plots">1.1.2 - Dot Plots</h3>
-<p>A <a href="../../glossary.html#glossary-dot-plot" class="glossary-link" data-original-href="#glossary-dot-plot" data-term="dot plot" data-slug="dot-plot">dot plot</a> puts the values on a number line. Each value gets <strong>one dot</strong>. Dots for the same value stack up.</p>
+<p>A <a href="../../glossary.html#glossary-dot-plot" class="glossary-link" data-slug="dot-plot" data-original-href="#glossary-dot-plot" data-term="dot plot">dot plot</a> puts the values on a number line. Each value gets <strong>one dot</strong>. Dots for the same value stack up.</p>
 <p>This dot plot shows the same siblings data:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -621,7 +625,7 @@ window.Quarto = {
 </section>
 <section id="histograms" class="level3">
 <h3 class="anchored" data-anchor-id="histograms">1.1.3 - Histograms</h3>
-<p>A <a href="../../glossary.html#glossary-histogram" class="glossary-link" data-original-href="#glossary-histogram" data-term="histogram" data-slug="histogram">histogram</a> is a bar graph for number data. The values are put into groups called <a href="../../glossary.html#glossary-bin" class="glossary-link" data-original-href="#glossary-bin" data-term="bins" data-slug="bin">bins</a>. Each bar is one bin.</p>
+<p>A <a href="../../glossary.html#glossary-histogram" class="glossary-link" data-slug="histogram" data-original-href="#glossary-histogram" data-term="histogram">histogram</a> is a bar graph for number data. The values are put into groups called <a href="../../glossary.html#glossary-bin" class="glossary-link" data-slug="bin" data-original-href="#glossary-bin" data-term="bins">bins</a>. Each bar is one bin.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../images/Unit_1/1.1_histogram_heights.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="380"></p>
@@ -1072,14 +1076,13 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
