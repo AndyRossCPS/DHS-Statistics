@@ -1,0 +1,1537 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Unit 5 Review – DHS Statistics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../chapters/Unit_6/index.html" rel="next">
+<link href="../../chapters/Unit_5/5.4_What_a_Study_Can_Prove.html" rel="prev">
+<link href="../../images/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-859b66b35598d39ec8aae4cd3ab271c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      packages: { '[+]': ['ams', 'color', 'cancel', 'html'] },
+      macros: {
+        stepnote: ['\\hbox{}\\hskip 1em\\class{stepnote}{\\textcolor{gray}{\\scriptsize\\hbox{#1}}}', 1],
+        steptag: ['\\stepnote{#1}', 1],
+        snboth: ['\\hbox{}\\hskip 1em\\class{stepnote}{\\textcolor{gray}{\\scriptsize\\hbox{$#1$ both sides}}}', 1],
+        snplus: ['\\snboth{+\\,#1}', 1],
+        snminus: ['\\snboth{-\\,#1}', 1],
+        sntimes: ['\\snboth{\\times\\,#1}', 1],
+        sndiv: ['\\snboth{\\div\\,#1}', 1]
+      }},
+    chtml: { mtextInheritFont: true }
+    };
+</script>
+
+<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles/widget-themes.css">
+<link rel="stylesheet" href="../../styles/glossary-tooltips.css">
+<link rel="stylesheet" href="../../styles/custom-callouts.css">
+<link rel="stylesheet" href="../../styles/custom-general.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">DHS Statistics</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/Unit_5/index.html">Unit 5: Study Design</a></li><li class="breadcrumb-item"><a href="../../chapters/Unit_5/Review.html">Unit 5 Review</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome to Statistics</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 1: Displaying One Variable</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.1_Frequency_Tables_Dot_Plots_and_Histograms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.1 - Frequency Tables, Dot Plots, and Histograms</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.2_Mean_Median_and_Shape.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.2 - Mean, Median, and Shape</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.3_Quartiles_IQR_and_Box_Plots.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.3 - Quartiles, IQR, and Box Plots</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.4_Reading_Box_Plots_and_Outliers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.4 - Reading Box Plots and Outliers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 1 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 2: Analyzing One Variable</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.1_Standard_Deviation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.1 - Standard Deviation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.2_Choosing_Measures_and_Comparing_Distributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.2 - Choosing Measures and Comparing Distributions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.3_Percentiles_and_Z-Scores.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.3 - Percentiles and Z-Scores</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.4_Normal_Distributions_and_the_Empirical_Rule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.4 - Normal Distributions and the Empirical Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.5_Normal_Calculations_with_a_Z-Table.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.5 - Normal Calculations with a Z-Table</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.6_Normal_Calculations_in_Reverse.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.6 - Normal Calculations in Reverse</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 2 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 3: Two-Way Tables</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.1_Two-Way_Tables_and_Relative_Frequency.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.1 - Two-Way Tables and Relative Frequency</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.2_Marginal_and_Conditional_Distributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.2 - Marginal and Conditional Distributions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 3 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 4: Scatterplots</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.1_Scatterplots_and_Lines_of_Best_Fit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.1 - Scatterplots and Lines of Best Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.2_Slope_Intercept_and_Correlation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.2 - Slope, Intercept, and Correlation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.3_Residuals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.3 - Residuals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 4 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Unit 5: Study Design</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.1_Samples_Studies_and_Bias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.1 - Samples, Studies, and Bias</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.2_Sampling_Methods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.2 - Sampling Methods</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.3_Experiments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.3 - Experiments</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.4_What_a_Study_Can_Prove.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.4 - What a Study Can Prove</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/Review.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Unit 5 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 6: Probability</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.1_Venn_Diagrams_and_the_Addition_Rule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.1 - Venn Diagrams and the Addition Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.2_The_Multiplication_Rule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.2 - The Multiplication Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.3_Conditional_Probability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.3 - Conditional Probability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.4_Simulations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.4 - Simulations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.5_Permutations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.5 - Permutations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.6_Combinations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.6 - Combinations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.7_Probability_with_Counting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.7 - Probability with Counting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 6 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 7: Probability Distributions</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.1_Probability_Distributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.1 - Probability Distributions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.2_Expected_Value.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.2 - Expected Value</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.3_Expected_Payoff.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.3 - Expected Payoff</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 7 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#learn" id="toc-learn" class="nav-link active" data-scroll-target="#learn">👥 Learn Together</a>
+  <ul class="collapse">
+  <li><a href="#who-is-in-the-study" id="toc-who-is-in-the-study" class="nav-link" data-scroll-target="#who-is-in-the-study">5.1 - Who Is in the Study?</a></li>
+  <li><a href="#choose-the-sample" id="toc-choose-the-sample" class="nav-link" data-scroll-target="#choose-the-sample">5.2 - Choose the Sample</a></li>
+  <li><a href="#run-an-experiment" id="toc-run-an-experiment" class="nav-link" data-scroll-target="#run-an-experiment">5.3 - Run an Experiment</a></li>
+  <li><a href="#what-can-it-prove" id="toc-what-can-it-prove" class="nav-link" data-scroll-target="#what-can-it-prove">5.4 - What Can It Prove?</a></li>
+  </ul></li>
+  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice">✍️ Practice On Your Own</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/Unit_5/index.html">Unit 5: Study Design</a></li><li class="breadcrumb-item"><a href="../../chapters/Unit_5/Review.html">Unit 5 Review</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Unit 5 Review</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>A company says its new homework app raises quiz scores. A school has 800 students. How can the principal find out if the company is right?</p>
+<p>Every tool from Unit 5 helps answer that question. Bias shows which plans fail. A random sample picks who is in the study. Random assignment makes a fair experiment. A simulation shows if the result is real or just chance.</p>
+<p>This review uses all of them. It has every kind of problem on the Unit 5 quiz, with more of each.</p>
+<div class="objectives">
+<ul class="task-list">
+<li><label><input type="checkbox">I name the population and the sample in a study, and I tell a sample survey, an observational study, and an experiment apart.</label></li>
+<li><label><input type="checkbox">I name the type of bias in a sample or a question, and I decide if results can be generalized to a population.</label></li>
+<li><label><input type="checkbox">I name and describe simple random, stratified, cluster, systematic, and convenience samples, and I tell stratified and cluster samples apart.</label></li>
+<li><label><input type="checkbox">I use a random digit table to choose a sample, and I choose a good sampling method for a situation.</label></li>
+<li><label><input type="checkbox">I name the subjects, treatments, explanatory variable, and response variable in an experiment, and I explain why random assignment matters.</label></li>
+<li><label><input type="checkbox">I explain control groups, placebos, and blinding, and I describe a completely randomized design and a matched pairs design.</label></li>
+<li><label><input type="checkbox">I decide if a study’s results can be generalized to a population, and I decide if a study can show cause and effect.</label></li>
+<li><label><input type="checkbox">I use a simulation to decide if a result is statistically significant, and I find mistakes in conclusions about studies.</label></li>
+</ul>
+</div>
+<div class="vocab">
+<p><a href="../../glossary.html#glossary-population" class="glossary-link" data-term="population" data-original-href="#glossary-population" data-slug="population">population</a>, <a href="../../glossary.html#glossary-sample" class="glossary-link" data-term="sample" data-original-href="#glossary-sample" data-slug="sample">sample</a>, <a href="../../glossary.html#glossary-bias" class="glossary-link" data-term="bias" data-original-href="#glossary-bias" data-slug="bias">bias</a>, <a href="../../glossary.html#glossary-observational-study" class="glossary-link" data-term="observational study" data-original-href="#glossary-observational-study" data-slug="observational-study">observational study</a>, <a href="../../glossary.html#glossary-experiment" class="glossary-link" data-term="experiment" data-original-href="#glossary-experiment" data-slug="experiment">experiment</a>, <a href="../../glossary.html#glossary-simple-random-sample" class="glossary-link" data-term="simple random sample" data-original-href="#glossary-simple-random-sample" data-slug="simple-random-sample">simple random sample</a>, <a href="../../glossary.html#glossary-stratified-sample" class="glossary-link" data-term="stratified sample" data-original-href="#glossary-stratified-sample" data-slug="stratified-sample">stratified sample</a>, <a href="../../glossary.html#glossary-cluster-sample" class="glossary-link" data-term="cluster sample" data-original-href="#glossary-cluster-sample" data-slug="cluster-sample">cluster sample</a>, <a href="../../glossary.html#glossary-systematic-sample" class="glossary-link" data-term="systematic sample" data-original-href="#glossary-systematic-sample" data-slug="systematic-sample">systematic sample</a>, <a href="../../glossary.html#glossary-convenience-sample" class="glossary-link" data-term="convenience sample" data-original-href="#glossary-convenience-sample" data-slug="convenience-sample">convenience sample</a>, <a href="../../glossary.html#glossary-control-group" class="glossary-link" data-term="control group" data-original-href="#glossary-control-group" data-slug="control-group">control group</a>, <a href="../../glossary.html#glossary-placebo" class="glossary-link" data-term="placebo" data-original-href="#glossary-placebo" data-slug="placebo">placebo</a>, <a href="../../glossary.html#glossary-double-blind" class="glossary-link" data-term="double-blind" data-original-href="#glossary-double-blind" data-slug="double-blind">double-blind</a>, <a href="../../glossary.html#glossary-random-assignment" class="glossary-link" data-term="random assignment" data-original-href="#glossary-random-assignment" data-slug="random-assignment">random assignment</a>, <a href="../../glossary.html#glossary-matched-pairs" class="glossary-link" data-term="matched pairs" data-original-href="#glossary-matched-pairs" data-slug="matched-pairs">matched pairs</a>, <a href="../../glossary.html#glossary-generalize" class="glossary-link" data-term="generalize" data-original-href="#glossary-generalize" data-slug="generalize">generalize</a>, <a href="../../glossary.html#glossary-statistically-significant" class="glossary-link" data-term="statistically significant" data-original-href="#glossary-statistically-significant" data-slug="statistically-significant">statistically significant</a></p>
+</div>
+<div class="guided-notes-link">
+<p><a href="../../handouts/Unit_5/Unit_5_Review.pdf" target="_blank">Printable review</a> - notes and practice problems to print and write on.</p>
+</div>
+<div class="khan-link">
+<p><strong>Khan Academy:</strong> <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:study-design/samples-surveys" target="_blank">Unit 5, Lesson 1: Introduction to planning a study</a>; <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:study-design/xa88397b6:potential-problems-sampling" target="_blank">Unit 5, Lesson 2: Potential problems with sampling</a>; <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:study-design/xa88397b6:sampling-methods" target="_blank">Unit 5, Lesson 3: Sampling methods</a>; <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:study-design/observational-studies-experiments" target="_blank">Unit 5, Lesson 4: Introduction to experimental design</a>; <a href="https://www.khanacademy.org/math/math-essentials/probability/xa88397b6:study-design/xa88397b6:inference-experiments" target="_blank">Unit 5, Lesson 5: Inference and experiments</a></p>
+</div>
+<section id="learn" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="learn">👥 Learn Together</h2>
+<section id="who-is-in-the-study" class="level3">
+<h3 class="anchored" data-anchor-id="who-is-in-the-study">5.1 - Who Is in the Study?</h3>
+<p>The <a href="../../glossary.html#glossary-population" class="glossary-link" data-term="population" data-original-href="#glossary-population" data-slug="population">population</a> is all 800 students at the school. The <a href="../../glossary.html#glossary-sample" class="glossary-link" data-term="sample" data-original-href="#glossary-sample" data-slug="sample">sample</a> is the part of the population we collect data from.</p>
+<p><strong>Idea 1:</strong> Post a link: “Did the app help you?” 150 students answer. This is <strong>voluntary response bias</strong>. Students with strong feelings answer most.</p>
+<p><strong>Idea 2:</strong> Compare students who chose the app with students who did not. This is an <a href="../../glossary.html#glossary-observational-study" class="glossary-link" data-term="observational study" data-original-href="#glossary-observational-study" data-slug="observational-study">observational study</a>. Students who chose the app may already work harder.</p>
+<div class="gotcha" title="A bigger sample does not fix bias">
+<p>If 1,000 people choose to answer a poll, it is still a voluntary response sample. Only chance makes a sample represent the population.</p>
+</div>
+<hr>
+</section>
+<section id="choose-the-sample" class="level3">
+<h3 class="anchored" data-anchor-id="choose-the-sample">5.2 - Choose the Sample</h3>
+<p>Randomly pick 10 students from each grade, 9 to 12. The sample is 40 students.</p>
+<p>This is a <a href="../../glossary.html#glossary-stratified-sample" class="glossary-link" data-term="stratified sample" data-original-href="#glossary-stratified-sample" data-slug="stratified-sample">stratified sample</a>. Every grade is in it, and chance picks the students.</p>
+<div class="remember" title="Stratified or Cluster?">
+<ul>
+<li><strong>Stratified:</strong> a <strong>few</strong> from <strong>every</strong> group.</li>
+<li><strong>Cluster:</strong> <strong>everyone</strong> from a <strong>few</strong> groups.</li>
+</ul>
+</div>
+<hr>
+</section>
+<section id="run-an-experiment" class="level3">
+<h3 class="anchored" data-anchor-id="run-an-experiment">5.3 - Run an Experiment</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_5/Review_app_design.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="560"></p>
+</figure>
+</div>
+<ul>
+<li>Explanatory variable: app or paper.</li>
+<li>Response variable: quiz score.</li>
+<li>Group 2 is the <a href="../../glossary.html#glossary-control-group" class="glossary-link" data-term="control group" data-original-href="#glossary-control-group" data-slug="control-group">control group</a>. It does not get the new treatment.</li>
+</ul>
+<p>Both groups get the same homework and take the same quiz. <a href="../../glossary.html#glossary-random-assignment" class="glossary-link" data-term="Random assignment" data-original-href="#glossary-random-assignment" data-slug="random-assignment">Random assignment</a> makes the groups alike. So a difference in scores comes from the app.</p>
+<hr>
+</section>
+<section id="what-can-it-prove" class="level3">
+<h3 class="anchored" data-anchor-id="what-can-it-prove">5.4 - What Can It Prove?</h3>
+<p>App group: <span class="math inline">\(\bar{x} = 82\)</span>. Paper group: <span class="math inline">\(\bar{x} = 74\)</span>. (<span class="math inline">\(\bar{x}\)</span> is the mean.)</p>
+<p><span class="math display">\[
+82 - 74 = 8 \text{ points}
+\]</span></p>
+<p>Is 8 points real, or just chance? Shuffle the 40 scores into two random groups of 20. Find the difference. Repeat 100 times.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_5/Review_app_simulation.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="520"></p>
+</figure>
+</div>
+<p>Only 2 of the 100 shuffles gave 8 or more (2%). The result is <a href="../../glossary.html#glossary-statistically-significant" class="glossary-link" data-term="statistically significant" data-original-href="#glossary-statistically-significant" data-slug="statistically-significant">statistically significant</a>.</p>
+<div class="remember" title="What Can This Study Prove?">
+<ul>
+<li>Random sample: we can <strong>generalize</strong> to all 800 students.</li>
+<li>Random assignment: the app <strong>caused</strong> the higher scores.</li>
+<li>Less than 5% by chance: the result is statistically significant.</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="practice" class="level2 unnumbered pagebreak-before">
+<h2 class="unnumbered pagebreak-before anchored" data-anchor-id="practice">✍️ Practice On Your Own</h2>
+<p>Work with a partner. Compare answers when you finish each problem.</p>
+<p><strong>5.1 - Samples, Studies, and Bias</strong></p>
+<ol type="1">
+<li><p>Name the population and the sample.</p>
+<ol type="a">
+<li><p>A factory makes 40,000 soccer balls each month. To check them, it tests 200 balls chosen at random.</p></li>
+<li><p>A town wants to know how its residents feel about a new bike path. It asks 350 randomly chosen residents.</p></li>
+<li><p>A school wants to know how many hours its 900 students sleep. It asks every student in 3 homerooms.</p></li>
+</ol>
+<p>Is each study a sample survey, an observational study, or an experiment? Explain.</p>
+<ol start="4" type="a">
+<li><p>A city asks 300 bus riders how long they wait for the bus.</p></li>
+<li><p>Researchers compare the grades of students who have a part-time job and students who do not.</p></li>
+<li><p>A gardener randomly chooses 20 bean plants to grow in the sun and 20 to grow in the shade. She measures how tall they grow.</p></li>
+<li><p>A scientist records the high temperature and the number of people at a beach each day.</p></li>
+<li><p>A teacher randomly chooses half of the class to use a calculator on a quiz. The other half do not use one. She compares the scores.</p></li>
+</ol></li>
+<li><p>Name the type of bias. Explain how it could change the results.</p>
+<ol type="a">
+<li><p>A news website asks readers to click yes or no: “Should phones be allowed in class?”</p></li>
+<li><p>To learn what music students at his school like, Sam asks his friends at lunch.</p></li>
+<li><p>A school wants to know how many students have a library card. It surveys a random sample of the students who visited the library this year.</p></li>
+<li><p>A store mails a survey to 1,000 randomly chosen customers. Only 150 send it back.</p></li>
+<li><p>A survey asks, “Do you agree that the new lunch menu, which students love, should stay?”</p></li>
+<li><p>A teacher asks each student, in front of the whole class, “Did you finish all of your homework this week?”</p></li>
+</ol>
+<p>Can the results be generalized to the population? Explain.</p>
+<ol start="7" type="a">
+<li><p>To learn how students get to school, Omar asks 50 students who are waiting at the bus stop.</p></li>
+<li><p>A school numbers its 1,200 students. A random number generator picks 100 of them. The school asks them how much time they spend on homework.</p></li>
+</ol></li>
+</ol>
+<hr>
+<p><strong>5.2 - Sampling Methods</strong></p>
+<ol start="3" type="1">
+<li><p>Name the sampling method. Then write if it uses chance.</p>
+<ol type="a">
+<li><p>A teacher writes all 30 names on cards, mixes them in a bag, and draws 5.</p></li>
+<li><p>A factory checks every 20th phone case that comes off the line. It starts with a random case from the first 20.</p></li>
+<li><p>A school randomly picks 4 of its 40 homerooms and surveys every student in those 4.</p></li>
+<li><p>A gym randomly picks 25 members who come in the morning and 25 who come in the evening.</p></li>
+<li><p>A reporter asks the first 30 people who leave a concert.</p></li>
+<li><p>A website asks visitors to answer a poll if they want to.</p></li>
+</ol>
+<p>A school has 600 students in 30 homerooms of 20 students. It has 3 lunch periods with 200 students each. The school wants to survey 60 students.</p>
+<ol start="7" type="a">
+<li><p>Describe a cluster sample of 60 students.</p></li>
+<li><p>Describe a stratified sample of 60 students. Use the lunch periods as the groups.</p></li>
+<li><p>What is the difference between your samples in (g) and (h)?</p></li>
+<li><p>A company has 12 phone stores. To survey its workers, the manager randomly selects 10 workers from each of the 12 stores. Which sampling method does the manager use?</p>
+<p>A. Simple random sample<br>
+B. Stratified sample<br>
+C. Cluster sample<br>
+D. Systematic sample</p></li>
+</ol></li>
+<li><p>Use this random digit table.</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Row 1</td>
+<td><code>80705 31552 01750 12036 81867 61814 36988 70804</code></td>
+</tr>
+<tr class="even">
+<td>Row 2</td>
+<td><code>57068 19587 06206 66786 12176 19087 11019 66850</code></td>
+</tr>
+</tbody>
+</table>
+<ol type="a">
+<li><p>A club has 50 members, numbered 01 to 50. Use <strong>row 1</strong> to choose 5 members.</p></li>
+<li><p>A class has 18 students, numbered 01 to 18. Use <strong>row 2</strong> to choose 3 students.</p></li>
+</ol>
+<p>A town has 6,000 residents. 4,500 live in town, and 1,500 live on farms outside town. The town wants to ask 120 residents about a new road.</p>
+<ol start="3" type="a">
+<li><p>Describe a good sampling method. Name it, and explain why it is a good choice.</p></li>
+<li><p>Someone says to ask 120 people at the grocery store in town. What is wrong with this method?</p></li>
+<li><p>A bus company has 30 buses with 40 seats each. It wants to check 120 seats for damage. Describe a fast way to choose the seats. Name the method.</p></li>
+<li><p>A teacher wants to choose 4 of her 28 students to test a new website. Describe how to choose a simple random sample.</p></li>
+</ol></li>
+</ol>
+<hr>
+<p><strong>5.3 - Experiments</strong></p>
+<ol start="5" type="1">
+<li><p>Does a new kind of soil help pepper plants grow taller? 36 pepper plants are randomly split into two groups of 18. One group grows in the new soil. The other group grows in regular soil. After 8 weeks, a class measures the height of each plant.</p>
+<ol type="a">
+<li><p>What are the subjects?</p></li>
+<li><p>What are the treatments?</p></li>
+<li><p>What is the explanatory variable?</p></li>
+<li><p>What is the response variable?</p></li>
+<li><p>What is the control group?</p></li>
+<li><p>Why split the plants into groups <strong>at random</strong>?</p></li>
+</ol>
+<p>A phone company tests a new battery saving setting. 50 phones of the same model are randomly split into two groups of 25. One group uses the new setting. The other group uses the normal setting. Each phone plays the same video until the battery dies. The company records how many hours each battery lasts.</p>
+<ol start="7" type="a">
+<li><p>What are the subjects?</p></li>
+<li><p>What is the explanatory variable?</p></li>
+<li><p>What is the response variable?</p></li>
+<li><p>Instead, the company puts the 25 newest phones in the new setting group. Why is this a problem?</p></li>
+</ol></li>
+<li><p>A company says its new “study tea” helps students do better on math tests. 60 student volunteers are randomly split into two groups of 30. One group drinks study tea. The other group drinks a plain tea that looks and tastes the same. Then every student takes the same math test. A teacher grades the tests.</p>
+<ol type="a">
+<li><p>What is the control group?</p></li>
+<li><p>The plain tea is a placebo. What is a placebo?</p></li>
+<li><p>Why give the control group a placebo, and not nothing at all?</p></li>
+<li><p>Why should the students not know which tea they drank?</p></li>
+<li><p>Why should the teacher who grades the tests not know?</p></li>
+<li><p>Neither the students nor the teacher knows who drank which tea. What is this called?</p></li>
+<li><p>Is this experiment a completely randomized design or a matched pairs design? Explain.</p></li>
+<li><p>Describe how to test study tea with a matched pairs design.</p></li>
+<li><p>In your matched pairs design, why flip a coin to decide which tea comes first?</p></li>
+<li><p>Why is a matched pairs design a good choice here?</p></li>
+</ol></li>
+</ol>
+<hr>
+<p><strong>5.4 - What a Study Can Prove</strong></p>
+<ol start="7" type="1">
+<li><p>For each study, can we conclude cause? Can we generalize to the population? Explain.</p>
+<ol type="a">
+<li><p>Researchers randomly choose 800 high school students in Missouri. Students who play a musical instrument have higher math grades.</p></li>
+<li><p>50 volunteers are randomly assigned to use a standing desk or a regular desk for a month. The standing desk group finishes more work.</p></li>
+<li><p>A website asks visitors who own a cat and visitors who own a dog how happy they are. The dog owners say they are happier.</p></li>
+<li><p>A school randomly chooses 60 of its 900 students. It randomly assigns 30 to read with a new reading app and 30 to read paper books. After a month, the app group reads faster.</p></li>
+<li><p>A researcher randomly selects 500 adults in a large city. She asks how many books they read each year and how many hours of TV they watch each week. Adults who read more books tend to watch less TV. Which conclusion is best supported?</p>
+<p>A. Reading more books causes adults in the city to watch less TV.<br>
+B. Reading more books causes all adults in the country to watch less TV.<br>
+C. For adults in the city, reading more books is associated with watching less TV, but the study does not show cause.<br>
+D. The results apply only to the 500 adults in the study.</p></li>
+</ol></li>
+<li><p>A coach tests a new jump training. 24 players are randomly split into two groups of 12. After 4 weeks, the coach measures how high each player jumps. Each dot is the difference between the group means in one random shuffle of the 24 jumps, when the training does nothing.</p>
+<p><img src="../../images/Unit_5/Review_jump_simulation.svg" class="img-fluid" width="400"></p>
+<ol type="a">
+<li><p>The training group’s mean jump was 5 cm higher. How many of the 100 shuffles gave a difference of 5 or more?</p></li>
+<li><p>What percent of the shuffles is that?</p></li>
+<li><p>Is a 5 cm difference statistically significant? Explain.</p></li>
+<li><p>Another team did the same experiment. Its training group jumped 2 cm higher. How many shuffles gave 2 or more? Is 2 cm statistically significant?</p></li>
+<li><p>What is the smallest whole number of cm that would be statistically significant? Explain.</p></li>
+</ol>
+<p>Find the mistake in each conclusion.</p>
+<ol start="6" type="a">
+<li><p>A survey of 400 randomly chosen teens found that teens who read for fun get better grades. A headline says, “Reading for fun raises grades.”</p></li>
+<li><p>36 volunteers from one music class were randomly assigned to two practice plans. Plan B players learned a new song faster. Conclusion: “Plan B works better for every music student in the country.”</p></li>
+<li><p>In a randomized experiment, Group 1 scored 3 points higher than Group 2. A simulation shows chance gives a difference of 3 or more 35 times out of 100. Conclusion: “The treatment for Group 1 works better.”</p></li>
+<li><p>Rewrite the headline in (f) so it does not claim a cause.</p></li>
+</ol></li>
+</ol>
+<hr>
+<p><strong>Test-Style Questions</strong></p>
+<p>A test asks the same questions with more words. Read slowly. Choose the best answer.</p>
+<ol start="9" type="1">
+<li><p>A researcher wants to estimate the mean number of hours that students at a large high school spend on homework each week. She surveys all 28 students in one advanced math class. Which statement best describes a problem with the researcher’s method?</p>
+<p>A. The sample is too large to give useful results.<br>
+B. The population is the 28 students in the class, so the results cannot be used.<br>
+C. The sample may not represent the school, because an advanced class may do more homework.<br>
+D. The study is an experiment, so the results cannot be generalized.</p></li>
+<li><p>A city council member wants to know whether residents support building a new public pool. She posts a survey on her website and asks people to respond. Of the 400 people who respond, 85% support the pool. Which type of bias is most likely present?</p>
+<p>A. Voluntary response bias, because people chose whether to answer.<br>
+B. Nonresponse bias, because some residents who were chosen did not answer.<br>
+C. Response bias, because the question was worded unfairly.<br>
+D. No bias, because 400 people is a large sample.</p></li>
+<li><p>A store manager randomly selects a number from 1 to 15, for example 6. She surveys the 6th customer who enters the store, and then she surveys every 15th customer after that. Which sampling method does the manager use?</p>
+<p>A. Simple random sample<br>
+B. Stratified sample<br>
+C. Cluster sample<br>
+D. Systematic sample</p></li>
+<li><p>To test whether a new plant food increases the number of flowers on rose plants, 40 rose plants are randomly assigned to get either the plant food or water only. What is the main purpose of the random assignment?</p>
+<p>A. To make sure every plant receives the plant food.<br>
+B. To make the two groups alike, so that a difference in flowers can be linked to the plant food.<br>
+C. To make sure the results apply to all rose plants in the world.<br>
+D. To increase the number of flowers on every plant.</p></li>
+<li><p>In the homework app study at the top of this page, a stratified random sample of 40 students was randomly assigned to use the app or paper homework. The app group’s mean quiz score was 8 points higher, and 2 of 100 shuffles gave a difference of 8 or more. Which conclusion is best supported?</p>
+<p>A. The difference is likely due to chance, so the app does not work.<br>
+B. The app will raise quiz scores for every student in the country.<br>
+C. The result is statistically significant, and the app likely caused higher scores at this school.<br>
+D. No conclusion is possible, because only 40 of the 800 students were in the study.</p></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<!-- Global widget auto fit wrapper -->
+<style>
+.qw-autofit{
+  width: 100%;
+  display: block;
+  contain: layout paint;
+}
+
+.qw-autofit > .qw-autofit-inner{
+  transform-origin: top center;
+  will-change: transform;
+}
+</style>
+
+<script src="../../scripts/popper.min.js"></script>
+<script src="../../scripts/tippy.min.js"></script>
+<script src="../../scripts/glossary-tooltips.js"></script>
+<script src="../../scripts/custom-callouts.js"></script>
+
+<!-- Auto fit widgets to viewport height -->
+<script>
+(function () {
+  const SELECTORS = [
+    ".function_machine_widget",
+    // ".slope_intercept_form_widget-root",
+    ".factor_tree_widget",
+    ".correlation-widget",
+    ".slope_intercept_form_game",
+    ".slope-widget",
+    ".vertex-form-widget"
+  ];
+
+  function findWidgetRoots() {
+    const roots = [];
+    SELECTORS.forEach((sel) => {
+      document.querySelectorAll(sel).forEach((el) => roots.push(el));
+    });
+    return roots;
+  }
+
+  function wrapOnce(root) {
+    if (!root || root.closest(".qw-autofit")) return;
+
+    const wrap = document.createElement("div");
+    wrap.className = "qw-autofit";
+
+    const inner = document.createElement("div");
+    inner.className = "qw-autofit-inner";
+
+    root.parentNode.insertBefore(wrap, root);
+    wrap.appendChild(inner);
+    inner.appendChild(root);
+  }
+
+  function getViewportH() {
+    return window.visualViewport ? window.visualViewport.height : window.innerHeight;
+  }
+
+  function fitOne(root) {
+    const wrap = root.closest(".qw-autofit");
+    const inner = wrap && wrap.querySelector(".qw-autofit-inner");
+    if (!wrap || !inner) return;
+
+    inner.style.transform = "";
+    wrap.style.height = "";
+
+    const rect = inner.getBoundingClientRect();
+    const widgetH = rect.height || 1;
+
+    const vpH = getViewportH();
+    const topPad = 28;
+    const bottomPad = 28;
+
+    // Leave breathing room so controls above and below still fit
+    const usableH = Math.max(240, vpH - topPad - bottomPad);
+
+    // Only scale down, never up
+    const s = Math.min(1, usableH / widgetH);
+
+    // Don’t do micro scaling. Only kick in when it helps.
+    if (s > 0.985) {
+      wrap.style.height = widgetH + "px";
+      return;
+    }
+
+    // Clamp so it never becomes unreadable
+    const sClamped = Math.max(0.78, s);
+
+    inner.style.transform = "scale(" + sClamped.toFixed(3) + ")";
+    wrap.style.height = (widgetH * sClamped) + "px";
+  }
+
+  function fitAll() {
+    findWidgetRoots().forEach((root) => fitOne(root));
+  }
+
+  function init() {
+    findWidgetRoots().forEach(wrapOnce);
+    fitAll();
+
+    window.addEventListener("resize", fitAll, { passive: true });
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener("resize", fitAll, { passive: true });
+    }
+
+    // Fonts and MathJax can change heights after load
+    setTimeout(fitAll, 60);
+    setTimeout(fitAll, 250);
+    setTimeout(fitAll, 600);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init, { once: true });
+  } else {
+    init();
+  }
+})();
+</script>
+
+<script>
+(function () {
+  const UP_THRESHOLD = 200;     // scroll up this many px before navbar may appear
+  const NEAR_TOP_ALLOW = 20;    // always allow navbar near top of page
+
+  function getHeader() {
+    return document.querySelector("header#quarto-header")
+      || document.querySelector("header.headroom")
+      || document.querySelector(".headroom");
+  }
+
+  let lastY = window.scrollY;
+  let upStartY = window.scrollY;
+  let dir = "down";
+  let lockedHidden = false;
+
+  function hideHeader(header) {
+    if (!header) return;
+    const h = header.getBoundingClientRect().height || 0;
+    header.style.transform = "translateY(" + (-h - 2) + "px)";
+    header.style.willChange = "transform";
+    lockedHidden = true;
+  }
+
+  function releaseHeader(header) {
+    if (!header) return;
+    header.style.transform = "";
+    header.style.willChange = "";
+    lockedHidden = false;
+  }
+
+  function onScroll(header) {
+    const y = window.scrollY;
+    const dy = y - lastY;
+
+    if (y <= NEAR_TOP_ALLOW) {
+      releaseHeader(header);
+      lastY = y;
+      return;
+    }
+
+    if (dy < 0) {
+      if (dir !== "up") {
+        dir = "up";
+        upStartY = lastY;
+      }
+
+      const upDist = upStartY - y;
+
+      if (upDist < UP_THRESHOLD) {
+        hideHeader(header);
+      } else {
+        releaseHeader(header);
+      }
+    }
+
+    if (dy > 0) {
+      dir = "down";
+      releaseHeader(header);
+    }
+
+    lastY = y;
+  }
+
+  function init() {
+    const header = getHeader();
+    if (!header) return;
+
+    window.addEventListener("scroll", () => onScroll(header), { passive: true });
+
+    // If Headroom toggles classes and tries to show it early, keep it hidden until threshold
+    const obs = new MutationObserver(() => {
+      if (!lockedHidden) return;
+      hideHeader(header);
+    });
+    obs.observe(header, { attributes: true, attributeFilter: ["class", "style"] });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init, { once: true });
+  } else {
+    init();
+  }
+})();
+</script>
+
+<!-- Global widget theme helpers (read/write only — no cross-widget push) -->
+<script>
+(function () {
+  const THEME_KEY = 'qw_theme_v1';
+  const VALID = ['classic', 'ocean', 'midnight', 'darcula', 'terminal'];
+
+  // Read the saved global theme (widgets without pickers use this on init)
+  window.qwGetTheme = function () {
+    try { return VALID.includes(localStorage.getItem(THEME_KEY)) ? localStorage.getItem(THEME_KEY) : 'ocean'; }
+    catch (e) { return 'ocean'; }
+  };
+
+  // Write the global theme (widgets with pickers call this when user changes theme)
+  window.qwSetTheme = function (name) {
+    if (!VALID.includes(name)) return;
+    try { localStorage.setItem(THEME_KEY, name); } catch (e) {}
+  };
+})();
+</script>
+
+<!-- MathJax helpers for widgets (surgical typesetting only) -->
+<script>
+(function () {
+  // Typeset only the node(s) you pass in. Does nothing if MathJax is not present.
+  function qwTypesetMath(target) {
+    const MJ = window.MathJax;
+    if (!MJ) return Promise.resolve();
+
+    const els = Array.isArray(target) ? target : [target];
+    const doTypeset = () => {
+      if (typeof MJ.typesetPromise === "function") return MJ.typesetPromise(els);
+      if (typeof MJ.typeset === "function") { MJ.typeset(els); }
+      return Promise.resolve();
+    };
+
+    if (MJ.startup && MJ.startup.promise) {
+      return MJ.startup.promise.then(doTypeset).catch(() => {});
+    }
+    return Promise.resolve(doTypeset()).catch(() => {});
+  }
+
+  // Expose low level helper
+  window.qwTypesetMath = qwTypesetMath;
+
+  // Debounce per element for widgets that update quickly
+  const pending = new Map(); // Element -> timer
+
+  function scheduleTypeset(el) {
+    if (!el || !(el instanceof Element)) return;
+    if (pending.has(el)) clearTimeout(pending.get(el));
+    pending.set(el, setTimeout(() => {
+      pending.delete(el);
+      qwTypesetMath(el);
+    }, 50));
+  }
+
+  // High level helper widgets call
+  window.setMath = function (el, tex, display) {
+    if (!el) return;
+    const t = String(tex ?? "");
+
+    // Use \( \) and \[ \] so widgets never introduce literal $ into their DOM
+    el.innerHTML = display ? `\\[${t}\\]` : `\\(${t}\\)`;
+
+    // Typeset only this element
+    scheduleTypeset(el);
+  };
+
+  // Optional batch helper
+  window.setMathAll = function (pairs) {
+    if (!Array.isArray(pairs)) return;
+    const els = [];
+    for (const p of pairs) {
+      if (!p || !p.el) continue;
+      const t = String(p.tex ?? "");
+      p.el.innerHTML = p.display ? `\\[${t}\\]` : `\\(${t}\\)`;
+      els.push(p.el);
+    }
+    if (els.length) qwTypesetMath(els);
+  };
+})();
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../chapters/Unit_5/5.4_What_a_Study_Can_Prove.html" class="pagination-link" aria-label="5.4 - What a Study Can Prove">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">5.4 - What a Study Can Prove</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../chapters/Unit_6/index.html" class="pagination-link" aria-label="Introduction">
+        <span class="nav-page-text">Introduction</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
